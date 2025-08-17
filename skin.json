@@ -1,0 +1,52 @@
+{
+    "Conditions": {
+        "What's New": {
+            "description": "Position/visibility of the What's New section in Library",
+            "default": "Bottom of page",
+            "tab": "Home Page",
+            "values": {
+                "Bottom of page": {
+                    "TargetCss": {
+                    "affects": ["^Steam$"],
+                    "src": "config/WhatsNewBottom.css"
+                    }
+                },
+                "Top of page": {
+                    "TargetCss": {
+                    "affects": ["^Steam$"],
+                    "src": "config/WhatsNewTop.css"
+                    }
+                },
+                "Hide entirely": {
+                    "TargetCss": {
+                    "affects": ["^Steam$"],
+                    "src": "config/WhatsNewHidden.css"
+                    }
+                }
+            }
+        }
+    },
+	"RootColors": "colors.css",
+    "name": "SteamUI-GoldenEra",
+    "author": "Jonius7",
+    "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
+    "version": "0.1-beta", 
+    "discord_support": {
+        "inviteCodeExcludingLink": "hScVrvxJWy"
+    },
+    "github": {
+        "owner": "Jonius7",
+        "repo_name": "SteamUI-GoldenEra"
+    },
+    "funding": {
+        "kofi": "jonius7"
+    },
+    "tags": [
+        "Tweaks",
+        "Compact"
+    ],
+    "header_image": "https://i.imgur.com/8V4V7HU.png",
+    "splash_image": "https://i.imgur.com/8V4V7HU.png",
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true
+}

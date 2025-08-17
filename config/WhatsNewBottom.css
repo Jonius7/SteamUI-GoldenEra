@@ -1,0 +1,12 @@
+/* What's New */
+
+/* Allows What's New to be moved around */
+._3lDczhulqraStjCitLYJ1K._2AUVZlzQq67qe3yhLZsPPB {
+	 display: flex;
+	 flex-flow: column;
+}
+
+/* Move What's New to the bottom of the page */
+._3lDczhulqraStjCitLYJ1K._2AUVZlzQq67qe3yhLZsPPB > div:first-child {
+	 order: 2;
+}
