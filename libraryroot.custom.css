@@ -1,42 +1,141 @@
-/* libraryroot/sidebar/homeandsearch.css */
 :root {
-  --SidebarBackgroundImage:
-    linear-gradient(
-      to bottom,
-      #2d333c 0%,
-      #24282f 20%);
+    /* Home and Search */
+    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%); /* default is a gradient */
 }
-._3x1HklzyDs4TEjACrRO2tB {
-  background-color: none;
-  background-image: var(--SidebarBackgroundImage);
-  display: grid !important;
-  grid-template-rows: 38px fit-content(20%) auto;
-  grid-template-columns: minmax(94px, 35%) auto;
-}
-._2TKEazUUS3TlniZfpc8OOe {
-  background-color: unset !important;
-  box-shadow: 0 0 0px rgba(0, 0, 0, 0.8) !important;
-  padding: 6px 3px 0px 6px !important;
-  grid-column-start: 1;
-}
-._3O48LaKWcabKx07xdrt1TH {
-  margin: auto;
-}
-._1ZS_xta5HMXzR8JgxDH6n7 {
-  padding: 6px 3px 0px !important;
-  grid-column-start: 2;
-}
-.EDl_mzaY3WxkgmYVD8W4d {
-  width: 195px !important;
-}
-._1ijTaXJJA5YWl_fW2IxcaT,
-._20QAC4WMXm8qFE8waUT5oo,
-._1fbRpYO_BFDlMdFLsQMGVE {
-  grid-column-start: 1;
-  grid-column-end: span 2;
-}
-._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
-  border-radius: 0px 4px 4px 0px;
-}
+/* Configurable variables */
+:root {
+  /* Left Sidebar - Games List */
+  --HoverOverlayPosition: 0;  /* Default: 0. Set 0 if default JS, unset if tweaked JS */
+  --GameListEntrySize: 16px;  /* Default: 16px.  */
+  --CategoryNameHeaderSize: 13px;  /* Default: 13px.  */
+  --GameListZoomSize: 75%;  /* Default: 100%. 75% highly recommended for Game List similar to old Library UI. Affects GameListEntrySize and CategoryNameHeaderSize */
+  --ShowLeftSidebar: flex;  /* Default: flex. Set to none to hide left sidebar */
 
-/* libraryroot/main.css */
+  /* Right Click Context Menu */
+  --ContextMenuLineHeight: 16px;  /* Default: inherit. Currently will override very long category names */
+  --ContextMenuFontSize: 13px;  /* Default: 14px.  */
+
+  /* Game Grid */
+  --RemoveShine: none;  /* Default: block. Set to none to Remove Shine/Glare on game grid images, which can cause discomfort */
+  --GameImageTransition: 1s;  /* Default: .4s, .4s, .4s, .2s. Grid Game Images transition time. 0s for instant, 2s for smooth. */
+  --GameImageOpacity: 1;  /* Default: 1. Suggested values for "softer" images: 0.7 or 0.5 */
+  --UninstalledGameImageOpacity: 0.5;  /* Default: 1. Suggested values: 0.5, 0.2 */
+  --GameGridImageBackground: inherit;  /* Default: inherit. Default is inherit, set #365d2d for a friendly green */
+  --GridRowGap: 8px;  /* Default: 24px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
+  --GridColumnGap: 5px;  /* Default: 16px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
+  --RemoveGameHover: block;  /* Default: block. Set to none to remove game preview box when hovering over game */
+
+  /* Game Page Layout */
+  --FriendsDLCScreenshotsColumnWidth: 61%;  /* Default: 33%. Determines width of the Friends Who Play/Achievements/Screenshots/DLC/Trading Cards column. Friend Activity/News column will fill the rest. */
+  --SwapColumns: left;  /* Default: right. Set left to swap columns. */
+  --AchievementsClickHighlight: Highlight_opacity;  /* Default: appdetailsoverview_HighlightMe_25jnp. Options: Highlight_opacity Highlight_border. Set to disabled to disable. */
+
+  /* Game Page Elements */
+  --RecommendGame: block;  /* Default: block. Set to none to hide "Recommond this game" box on game page. */
+  --DLCAvailableContent: none;  /* Default: block. Set to none to hide the DLC Available Content box. */
+
+  /* Game Page Background */
+  --AppPageBlur: 2px;  /* Default: 8px. Controls the blur between the Header and AppPage content. 2px for a more clean look. */
+  --AmbientBlur: black;  /* Default: black 80%. Set to rgba(0,0,0,0) to remove */
+
+  /* Other */
+  --VerticalNavBarOffset: 0px;  /* Default: 0px. Leave at 0px, this var is for steam-library compatibility and vertical nav bar */
+}
+/* Container grid setup */
+._3x1HklzyDs4TEjACrRO2tB {
+    background-image: var(--SidebarBackgroundColor);
+    display: grid !important;
+    grid-template-rows: 38px fit-content(20%) auto;
+    grid-template-columns: minmax(94px, 35%) auto;
+}
+/*Home bar width: 1st column, align with Gamelist dropdown and buttons*/
+._2TKEazUUS3TlniZfpc8OOe {
+    background-color: unset !important;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8) !important;
+    padding: 6px 3px 0px 6px !important;
+    grid-column-start: 1;
+}
+/*Home button text centred*/
+._3O48LaKWcabKx07xdrt1TH {
+    margin: auto;
+}
+/* Gamelist dropdown and buttons width: 2nd column, align with home bar*/
+._1ZS_xta5HMXzR8JgxDH6n7 {
+    padding: 6px 3px 0px !important;
+    grid-column-start: 2;
+}
+/* Games dropdown width increased */
+.EDl_mzaY3WxkgmYVD8W4d {
+    width: 195px !important;
+}
+/* Other divs to max width (2 columns) */
+._1ijTaXJJA5YWl_fW2IxcaT, ._20QAC4WMXm8qFE8waUT5oo, ._1fbRpYO_BFDlMdFLsQMGVE {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+/* Round only outsie corners of Advanced Search filters button */
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
+    border-radius: 0px 4px 4px 0px;
+}
+/* Gamelist entry - font size */
+._2-O4ZG0KrnSrzISHBKctFQ {
+    font-size: var(--GameListEntrySize) !important;
+}
+._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    height: 100%;
+}
+/* Gamelist entry - icon size */
+._2-O4ZG0KrnSrzISHBKctFQ .ga1hyw11cdBVodrCAidPF {
+    height: 22px;
+    width: 22px;
+}
+/* Context Menu font size */
+.contextmenu_contextMenuContents_2EstN {
+    font-size: var(--ContextMenuFontSize);
+}
+/* Context Menu line spacing/height */
+.contextmenu_contextMenuItem_1n7Wl {
+    line-height: var(--ContextMenuLineHeight);
+    height: var(--ContextMenuLineHeight);
+}
+/* remove border */
+._2sYIghGVXJr6tsQVvcryy8 {
+    box-sizing: border-box;
+    color: #707379;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+/* category name - repositioning */
+._3cV3O8FnPQqpJO5kIMUlLX {
+    margin-top: 3px;
+    padding: 0px 9px 5px 9px;
+}
+/* category name - font size and height*/
+._2mZ8LlvoUiyeEUtIWuTri {
+    font-size: var(--CategoryNameHeaderSize);
+    height: 15px;
+}
+/* category count - font size and height*/
+._29uten9Yy8q-n7woDEOXVF {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* Zoom out both the gamelist container and the hover text for long game names */
+._1ijTaXJJA5YWl_fW2IxcaT, ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    zoom: var(--GameListZoomSize);
+    position: relative;
+}
+/* Fix hover text for long game names to the bottom due to non-default zoom size for game list. */
+._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    position: fixed;
+    height: 28px;
+    bottom: 0;
+}
+._9sPoVBFyE_vE87mnZJ5aB {
+    display: var(--ShowLeftSidebar);
+}
+._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
+    border-radius: 3px;
+}
+._3pSPluBgf0NeR1kkCLWMhR._30KGSfPjPskFlnrSxBfkiK {
+    margin-left: 6px;
+}

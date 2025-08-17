@@ -1,4 +1,4 @@
 :root {
     /* Home and Search */
-    --SidebarBackgroundImage: linear-gradient(to bottom, #2d333c 0%, #24282f 30%);
+    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%); /* default is a gradient */
 }
