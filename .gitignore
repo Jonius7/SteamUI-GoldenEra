@@ -1,4 +1,4 @@
-update.bat
-compile.bat
+?_*
 
 /node_modules
+/libraryroot

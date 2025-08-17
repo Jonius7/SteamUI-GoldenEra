@@ -1,3 +1,4 @@
 :root {
-    --button: blue;
+    /* Home and Search */
+    --SidebarBackgroundImage: linear-gradient(to bottom, #2d333c 0%, #24282f 30%);
 }
