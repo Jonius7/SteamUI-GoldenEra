@@ -1,0 +1,52 @@
+
+
+._2rjVTGz8aLvqOdz5v2gq5C, /* Settings Title */
+._3yD46y5pd3zOGR7CzKs0mC.online, /* Username Online */
+.H4JE-8OU0E7AeMZY3bEeM, /* Family library name in settings */
+.BRmrC-jnwpXqye4oYB21C button.DialogButton, /* double down arrows in settings */
+.online .nOdcT-MoOaXGePXLyPe0H /* online player text */
+{
+    color: var(--SystemAccentColor) !important;
+}
+
+
+/* Selected Store, Library, Community... text*/
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: var(--SystemAccentColor);
+    text-shadow: 0px 0px 1px var(--SystemAccentColor);
+}
+
+/* Selected Store, Library, Community... Underline */
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
+    background: var(--SystemAccentColor);
+}
+
+/* Switches (in settings) */
+._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    background: var(--SystemAccentColor);
+}
+
+/* Chooser (in settings) */
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
+    background: radial-gradient(color-mix(in srgb, var(--SystemAccentColor), transparent 27%) 0%, var(--SystemAccentColor) 100%);
+}
+
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
+    background-color: #464d58;
+}
+
+/* Slider (in settings) */
+
+._2_vG6TwMW2XtyLlTEaODH9::before {
+    background-color: var(--SystemAccentColor);
+}
+
+/* New to Library */
+.N8aJrSpxQ6II4CY_aFdYI {
+    background-color: var(--SystemAccentColor);
+}
+
+/* Down Arrow Context Menu */
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    background-color: var(--SystemAccentColor);
+}

@@ -14,8 +14,13 @@
 
 /* Main and Secondary Play Button Hover Color */
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
-  background: linear-gradient(to right, var(--play-button-hover-color-1) 0%, var(--play-button-hover-color-2) 60%);
+  background: linear-gradient(to right, var(--playbuttonhovercolor1) 0%, var(--playbuttonhovercolor2) 60%);
   background-position: 0%;
   background-size: 330% 100%;
   color: var(--playbuttonhovertextcolor);
+}
+
+/* Small Play Button on Recent Games */
+._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
+    background: radial-gradient(circle farthest-corner at 50% 50%, var(--playbuttoncolor1) 0%, var(--playbuttoncolor2) 100%);
 }

@@ -136,46 +136,60 @@
                 },
                 "no": {}
             }
+        },
+        "Use Custom Accent Color?": {
+            "description": "Enables Use of System Accent Color from Millennium's settings.",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/SystemAccent.css" 
+                    }
+                }
+            }
         }
     },
     "GlobalsColors": [
         {
-            "ColorName": "--sidebar-background-color-1",
+            "ColorName": "--sidebarbackgroundcolor1",
             "Description": "Sidebar Color 1",
             "HexColorCode": "#2d333c"
         },
         {
-            "ColorName": "--sidebar-background-color-2",
+            "ColorName": "--sidebarbackgroundcolor2",
             "Description": "Sidebar Color 2",
             "HexColorCode": "#24282f"
         },
         {
-            "ColorName": "--play-button-color-1",
+            "ColorName": "--playbuttoncolor1",
             "Description": "Play Button Color 1",
             "HexColorCode": "#70d61d"
         },
         {
-            "ColorName": "--play-button-color-2",
+            "ColorName": "--playbuttoncolor2",
             "Description": "Play Button Color 2",
             "HexColorCode": "#01a75b"
         },
         {
-            "ColorName": "--play-button-arrow-color-1",
+            "ColorName": "--playbuttonarrowcolor1",
             "Description": "Play Button Arrow Color 1",
             "HexColorCode": "#19b14e"
         },
         {
-            "ColorName": "--play-button-arrow-color-2",
+            "ColorName": "--playbuttonarrowcolor2",
             "Description": "Play Button Arrow Color 2",
             "HexColorCode": "#19b14e"
         },
         {
-            "ColorName": "--play-button-hover-color-1",
+            "ColorName": "--playbuttonhovercolor1",
             "Description": "Play Button Hover Color 1",
             "HexColorCode": "#70d61d"
         },
         {
-            "ColorName": "--play-button-hover-color-2",
+            "ColorName": "--playbuttonhovercolor2",
             "Description": "Play Button Hover Color 2",
             "HexColorCode": "#01a75b"
         }
@@ -184,7 +198,7 @@
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.1-beta", 
+    "version": "0.3-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },
