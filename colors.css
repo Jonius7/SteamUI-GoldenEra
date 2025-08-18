@@ -1,9 +1,42 @@
 :root {
-    /* Home and Search */
-    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%);
-
-    /* Gamepage Play Button */
-    --PlayButtonColor1: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
-    --PlayButtonColor2: linear-gradient(to right, #19b14e 0%, #19b14e 60%);
-    --PlayButtonHover: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
+    /* 
+    * @name Sidebar Color 1
+    * @description Sidebar Color 1 working?
+    */
+    --sidebar-background-color-1: #2d333c;
+    /* 
+    * @name Sidebar Color 2 
+    * @description Sidebar Color 2 working?
+    */
+    --sidebar-background-color-2: #24282f;
+    /* 
+    * @name Play Button Color 1
+    * @description Play Button Color 1
+    */
+    --play-button-color-1: #70d61d;
+    /* 
+    * @name Play Button Color 2
+    * @description Play Button Color 2
+    */
+    --play-button-color-2: #01a75b;
+    /* 
+    * @name Play Button Arrow Color 1
+    * @description Play Button Arrow Color 1
+    */
+    --play-button-arrow-color-1: #19b14e;
+    /* 
+    * @name Play Button Arrow Color 2
+    * @description Play Button Arrow Color 2
+    */
+    --play-button-arrow-color-2: #19b14e;
+    /* 
+    * @name Play Button Hover Color 1
+    * @description Play Button Hover Color 1
+    */
+    --play-button-hover-color-1: #70d61d;
+    /* 
+    * @name Play Button Hover Color 2
+    * @description Play Button Hover Color 2 
+    */
+    --play-button-hover-color-2: #01a75b;
 }

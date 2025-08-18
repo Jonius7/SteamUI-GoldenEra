@@ -1,14 +1,4 @@
-/*
-  @import colors.css */
-:root {
-    /* Home and Search */
-    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%);
-
-    /* Gamepage Play Button */
-    --PlayButtonColor1: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
-    --PlayButtonColor2: linear-gradient(to right, #19b14e 0%, #19b14e 60%);
-    --PlayButtonHover: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
-}
+/* @import "../colors.css"; */
 /*
   @import variables.css */
 /* Configurable variables */
@@ -20,7 +10,6 @@
 
   /* Game Grid */
   --GameImageTransition: 1s;  /* Default: .4s, .4s, .4s, .2s. Grid Game Images transition time. 0s for instant, 2s for smooth. */
-  --GameImageOpacity: 1;  /* Default: 1. Suggested values for "softer" images: 0.7 or 0.5 */
   --UninstalledGameImageOpacity: 0.5;  /* Default: 1. Suggested values: 0.5, 0.2 */
   --GameGridImageBackground: inherit;  /* Default: inherit. Default is inherit, set #365d2d for a friendly green */
   --GridRowGap: 8px;  /* Default: 24px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
@@ -28,8 +17,6 @@
   --RemoveGameHover: block;  /* Default: block. Set to none to remove game preview box when hovering over game */
 
   /* Game Page Layout */
-  --FriendsDLCScreenshotsColumnWidth: 61%;  /* Default: 33%. Determines width of the Friends Who Play/Achievements/Screenshots/DLC/Trading Cards column. Friend Activity/News column will fill the rest. */
-  --SwapColumns: left;  /* Default: right. Set left to swap columns. */
   --AchievementsClickHighlight: Highlight_opacity;  /* Default: appdetailsoverview_HighlightMe_25jnp. Options: Highlight_opacity Highlight_border. Set to disabled to disable. */
 
   /* Game Page Elements */
@@ -39,9 +26,6 @@
   /* Game Page Background */
   --AppPageBlur: 2px;  /* Default: 8px. Controls the blur between the Header and AppPage content. 2px for a more clean look. */
   --AmbientBlur: black;  /* Default: black 80%. Set to rgba(0,0,0,0) to remove */
-
-  /* Other */
-  --VerticalNavBarOffset: 0px;  /* Default: 0px. Leave at 0px, this var is for steam-library compatibility and vertical nav bar */
 }
 /*
   @import steam\gamepage\Achievements.css */
@@ -55,20 +39,20 @@
   @import steam\gamepage\PlayButton.css */
 /* Main Play Button Color */
 ._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX {
-  background: var(--PlayButtonColor1);
+  background: linear-gradient(to right, var(--playbuttoncolor1) 0%, var(--playbuttoncolor2) 60%);
   background-position: 25%;
   background-size: 330% 100%;
 }
 /* Secondary Play Button (Play On: Device) Button Color */
 ._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
-  background: var(--PlayButtonColor2);
+  background: linear-gradient(to right, var(--playbuttonarrowcolor1) 0%, var(--playbuttonarrowcolor2) 60%);;
   background-position: 25%;
   background-size: 330% 100%
 }
 /* Main and Secondary Play Button Hover Color */
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
-  background: var(--PlayButtonHover);
+  background: linear-gradient(to right, var(--play-button-hover-color-1) 0%, var(--play-button-hover-color-2) 60%);
   background-position: 0%;
   background-size: 330% 100%;
-  color: #fff
+  color: var(--playbuttonhovertextcolor);
 }

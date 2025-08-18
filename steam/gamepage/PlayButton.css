@@ -1,21 +1,21 @@
 /* Main Play Button Color */
 ._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX {
-  background: var(--PlayButtonColor1);
+  background: linear-gradient(to right, var(--playbuttoncolor1) 0%, var(--playbuttoncolor2) 60%);
   background-position: 25%;
   background-size: 330% 100%;
 }
 
 /* Secondary Play Button (Play On: Device) Button Color */
 ._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
-  background: var(--PlayButtonColor2);
+  background: linear-gradient(to right, var(--playbuttonarrowcolor1) 0%, var(--playbuttonarrowcolor2) 60%);;
   background-position: 25%;
   background-size: 330% 100%
 }
 
 /* Main and Secondary Play Button Hover Color */
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
-  background: var(--PlayButtonHover);
+  background: linear-gradient(to right, var(--play-button-hover-color-1) 0%, var(--play-button-hover-color-2) 60%);
   background-position: 0%;
   background-size: 330% 100%;
-  color: #fff
+  color: var(--playbuttonhovertextcolor);
 }

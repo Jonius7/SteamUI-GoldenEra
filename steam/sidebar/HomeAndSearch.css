@@ -1,33 +1,33 @@
-/* Container grid setup */
+/* Home and Search container grid setup */
 ._3x1HklzyDs4TEjACrRO2tB {
-    background-image: var(--SidebarBackgroundColor);
+    background-image: linear-gradient(to bottom, var(--sidebar-background-color-1) 0%, var(--sidebar-background-color-2) 30%);;
     display: grid !important;
     grid-template-rows: 38px fit-content(20%) auto;
     grid-template-columns: minmax(94px, 35%) auto;
 }
 
-/*Home bar width: 1st column, align with Gamelist dropdown and buttons*/
+/* Home bar remove background and box-shadow, 1st column, align with Gamelist dropdown and buttons */
 ._2TKEazUUS3TlniZfpc8OOe {
-    background-color: unset !important;
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8) !important;
-    padding: 6px 3px 0px 6px !important;
+    background-color: unset;
+    box-shadow: none;
+    padding: 6px 3px 0px 6px;
     grid-column-start: 1;
 }
 
-/*Home button text centred*/
+/* Home button text centred */
 ._3O48LaKWcabKx07xdrt1TH {
     margin: auto;
 }
 
-/* Gamelist dropdown and buttons width: 2nd column, align with home bar*/
+/* Gamelist dropdown and buttons, 2nd column, align with home bar*/
 ._1ZS_xta5HMXzR8JgxDH6n7 {
-    padding: 6px 3px 0px !important;
+    padding: 6px 3px 0px;
     grid-column-start: 2;
 }
 
 /* Games dropdown width increased */
 .EDl_mzaY3WxkgmYVD8W4d {
-    width: 195px !important;
+    width: 195px;
 }
 
 /* Other divs to max width (2 columns) */

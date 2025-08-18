@@ -26,7 +26,7 @@
             }
         },
         "Remove Shine on Game Images": {
-            "description": "Remove Shine/Glare on game grid images, which can cause discomfort.",
+            "description": "Remove Shine/Glare on game grid images, which can cause discomfort",
             "default": "yes",
             "tab": "Home Page",
             "values": {
@@ -66,8 +66,120 @@
                 },
                 "no": {}
             }
+        },
+        "Swap Gamepage Columns": {
+            "description": "Swaps gamepage columns and changes their widths to mimic a Pre-2019 library layout",
+            "default": "yes",
+            "tab": "Game Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/gamepage/Columns.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Compact Friends Activity and News": {
+            "description": "Removing spacing and shrinks images to fit in more Friends Activity and News",
+            "default": "yes",
+            "tab": "Game Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/gamepage/ActivityNews.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Compact Events": {
+            "description": "Removing spacing and shrinks images to fit in more Game Events",
+            "default": "yes",
+            "tab": "Game Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/gamepage/Events.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Better Nav Bar": {
+            "description": "Tweak nav bar to be bigger and text to be more opaque",
+            "default": "yes",
+            "tab": "Game Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/gamepage/NavBar.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Thicker Scrollbar": {
+            "description": "Thicker scrollbar for ease of use",
+            "default": "yes",
+            "tab": "General",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/ScrollBar.css"
+                    }
+                },
+                "no": {}
+            }
         }
     },
+    "GlobalsColors": [
+        {
+            "ColorName": "--sidebar-background-color-1",
+            "Description": "Sidebar Color 1",
+            "HexColorCode": "#2d333c"
+        },
+        {
+            "ColorName": "--sidebar-background-color-2",
+            "Description": "Sidebar Color 2",
+            "HexColorCode": "#24282f"
+        },
+        {
+            "ColorName": "--play-button-color-1",
+            "Description": "Play Button Color 1",
+            "HexColorCode": "#70d61d"
+        },
+        {
+            "ColorName": "--play-button-color-2",
+            "Description": "Play Button Color 2",
+            "HexColorCode": "#01a75b"
+        },
+        {
+            "ColorName": "--play-button-arrow-color-1",
+            "Description": "Play Button Arrow Color 1",
+            "HexColorCode": "#19b14e"
+        },
+        {
+            "ColorName": "--play-button-arrow-color-2",
+            "Description": "Play Button Arrow Color 2",
+            "HexColorCode": "#19b14e"
+        },
+        {
+            "ColorName": "--play-button-hover-color-1",
+            "Description": "Play Button Hover Color 1",
+            "HexColorCode": "#70d61d"
+        },
+        {
+            "ColorName": "--play-button-hover-color-2",
+            "Description": "Play Button Hover Color 2",
+            "HexColorCode": "#01a75b"
+        }
+    ],
 	"RootColors": "colors.css",
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
