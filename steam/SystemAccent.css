@@ -9,7 +9,6 @@
     color: var(--SystemAccentColor) !important;
 }
 
-
 /* Selected Store, Library, Community... text*/
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
     color: var(--SystemAccentColor);
@@ -31,22 +30,12 @@
     background: radial-gradient(color-mix(in srgb, var(--SystemAccentColor), transparent 27%) 0%, var(--SystemAccentColor) 100%);
 }
 
-.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
-    background-color: #464d58;
-}
-
-/* Slider (in settings) */
-
-._2_vG6TwMW2XtyLlTEaODH9::before {
+._2_vG6TwMW2XtyLlTEaODH9::before, /* Slider (in settings) */
+.N8aJrSpxQ6II4CY_aFdYI /* New to Library */{
     background-color: var(--SystemAccentColor);
 }
 
-/* New to Library */
-.N8aJrSpxQ6II4CY_aFdYI {
-    background-color: var(--SystemAccentColor);
-}
-
-/* Down Arrow Context Menu */
+/* Down Arrow Context Menu */ 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
-    background-color: var(--SystemAccentColor);
+    fill: var(--SystemAccentColor);
 }

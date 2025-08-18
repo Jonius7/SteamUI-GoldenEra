@@ -2,7 +2,7 @@
 ._3x1HklzyDs4TEjACrRO2tB {
     background-image: linear-gradient(to bottom, var(--sidebarbackgroundcolor1) 0%, var(--sidebarbackgroundcolor2) 30%);;
     display: grid !important;
-    grid-template-rows: 38px fit-content(20%) auto;
+    grid-template-rows: 38px fit-content(20%) fit-content(5%) minmax(0px, 95%);
     grid-template-columns: minmax(94px, 35%) auto;
 }
 
@@ -31,9 +31,16 @@
 }
 
 /* Other divs to max width (2 columns) */
-._1ijTaXJJA5YWl_fW2IxcaT, ._20QAC4WMXm8qFE8waUT5oo, ._1fbRpYO_BFDlMdFLsQMGVE {
+._1ijTaXJJA5YWl_fW2IxcaT, 
+._20QAC4WMXm8qFE8waUT5oo, 
+._1fbRpYO_BFDlMdFLsQMGVE,
+._2Q95p8Q2cZFieeOi06-FS9 /* Show all collections button when using View */ {
     grid-column-start: 1;
     grid-column-end: span 2;
+}
+
+._1ijTaXJJA5YWl_fW2IxcaT {
+    grid-row-start: 4;
 }
 
 /* Round only outsie corners of Advanced Search filters button */

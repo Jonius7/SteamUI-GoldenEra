@@ -60,3 +60,15 @@
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
     background: radial-gradient(circle farthest-corner at 50% 50%, var(--playbuttoncolor1) 0%, var(--playbuttoncolor2) 100%);
 }
+/* Context Menu Play Button */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
+    background: linear-gradient(-45deg, var(--playbuttoncolor1) 0%, var(--playbuttoncolor2) 70%);
+}
+/*
+  @import steam\sidebar\SidebarTweaks.css */
+/* Show all collections button (View), fix margin, width and centering of text */
+._2Q95p8Q2cZFieeOi06-FS9 {
+    margin: 0px 32px 8px 32px;
+    width: unset;
+    justify-content: center;
+}
