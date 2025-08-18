@@ -1,22 +1,24 @@
+/*
+  @import colors.css */
 :root {
     /* Home and Search */
-    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%); /* default is a gradient */
+    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%);
+
+    /* Gamepage Play Button */
+    --PlayButtonColor1: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
+    --PlayButtonColor2: linear-gradient(to right, #19b14e 0%, #19b14e 60%);
+    --PlayButtonHover: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
 }
+/*
+  @import variables.css */
 /* Configurable variables */
 :root {
   /* Left Sidebar - Games List */
-  --HoverOverlayPosition: 0;  /* Default: 0. Set 0 if default JS, unset if tweaked JS */
   --GameListEntrySize: 16px;  /* Default: 16px.  */
   --CategoryNameHeaderSize: 13px;  /* Default: 13px.  */
   --GameListZoomSize: 75%;  /* Default: 100%. 75% highly recommended for Game List similar to old Library UI. Affects GameListEntrySize and CategoryNameHeaderSize */
-  --ShowLeftSidebar: flex;  /* Default: flex. Set to none to hide left sidebar */
-
-  /* Right Click Context Menu */
-  --ContextMenuLineHeight: 16px;  /* Default: inherit. Currently will override very long category names */
-  --ContextMenuFontSize: 13px;  /* Default: 14px.  */
 
   /* Game Grid */
-  --RemoveShine: none;  /* Default: block. Set to none to Remove Shine/Glare on game grid images, which can cause discomfort */
   --GameImageTransition: 1s;  /* Default: .4s, .4s, .4s, .2s. Grid Game Images transition time. 0s for instant, 2s for smooth. */
   --GameImageOpacity: 1;  /* Default: 1. Suggested values for "softer" images: 0.7 or 0.5 */
   --UninstalledGameImageOpacity: 0.5;  /* Default: 1. Suggested values: 0.5, 0.2 */
@@ -41,101 +43,32 @@
   /* Other */
   --VerticalNavBarOffset: 0px;  /* Default: 0px. Leave at 0px, this var is for steam-library compatibility and vertical nav bar */
 }
-/* Container grid setup */
-._3x1HklzyDs4TEjACrRO2tB {
-    background-image: var(--SidebarBackgroundColor);
-    display: grid !important;
-    grid-template-rows: 38px fit-content(20%) auto;
-    grid-template-columns: minmax(94px, 35%) auto;
+/*
+  @import steam\gamepage\Achievements.css */
+/* Enlarge Achievements content space*/
+.HruWVPwIDh2FFOOH7OiSs .gioyPMOZttYFcnmgLnsWf {
+    width: 95%;
+    max-width: unset;
+    margin: 14px auto 14px auto;
 }
-/*Home bar width: 1st column, align with Gamelist dropdown and buttons*/
-._2TKEazUUS3TlniZfpc8OOe {
-    background-color: unset !important;
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8) !important;
-    padding: 6px 3px 0px 6px !important;
-    grid-column-start: 1;
+/*
+  @import steam\gamepage\PlayButton.css */
+/* Main Play Button Color */
+._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX {
+  background: var(--PlayButtonColor1);
+  background-position: 25%;
+  background-size: 330% 100%;
 }
-/*Home button text centred*/
-._3O48LaKWcabKx07xdrt1TH {
-    margin: auto;
+/* Secondary Play Button (Play On: Device) Button Color */
+._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+  background: var(--PlayButtonColor2);
+  background-position: 25%;
+  background-size: 330% 100%
 }
-/* Gamelist dropdown and buttons width: 2nd column, align with home bar*/
-._1ZS_xta5HMXzR8JgxDH6n7 {
-    padding: 6px 3px 0px !important;
-    grid-column-start: 2;
-}
-/* Games dropdown width increased */
-.EDl_mzaY3WxkgmYVD8W4d {
-    width: 195px !important;
-}
-/* Other divs to max width (2 columns) */
-._1ijTaXJJA5YWl_fW2IxcaT, ._20QAC4WMXm8qFE8waUT5oo, ._1fbRpYO_BFDlMdFLsQMGVE {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-}
-/* Round only outsie corners of Advanced Search filters button */
-._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
-    border-radius: 0px 4px 4px 0px;
-}
-/* Gamelist entry - font size */
-._2-O4ZG0KrnSrzISHBKctFQ {
-    font-size: var(--GameListEntrySize) !important;
-}
-._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
-    height: 100%;
-}
-/* Gamelist entry - icon size */
-._2-O4ZG0KrnSrzISHBKctFQ .ga1hyw11cdBVodrCAidPF {
-    height: 22px;
-    width: 22px;
-}
-/* Context Menu font size */
-.contextmenu_contextMenuContents_2EstN {
-    font-size: var(--ContextMenuFontSize);
-}
-/* Context Menu line spacing/height */
-.contextmenu_contextMenuItem_1n7Wl {
-    line-height: var(--ContextMenuLineHeight);
-    height: var(--ContextMenuLineHeight);
-}
-/* remove border */
-._2sYIghGVXJr6tsQVvcryy8 {
-    box-sizing: border-box;
-    color: #707379;
-    border: 0px solid rgba(0, 0, 0, 0);
-}
-/* category name - repositioning */
-._3cV3O8FnPQqpJO5kIMUlLX {
-    margin-top: 3px;
-    padding: 0px 9px 5px 9px;
-}
-/* category name - font size and height*/
-._2mZ8LlvoUiyeEUtIWuTri {
-    font-size: var(--CategoryNameHeaderSize);
-    height: 15px;
-}
-/* category count - font size and height*/
-._29uten9Yy8q-n7woDEOXVF {
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.5);
-}
-/* Zoom out both the gamelist container and the hover text for long game names */
-._1ijTaXJJA5YWl_fW2IxcaT, ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
-    zoom: var(--GameListZoomSize);
-    position: relative;
-}
-/* Fix hover text for long game names to the bottom due to non-default zoom size for game list. */
-._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
-    position: fixed;
-    height: 28px;
-    bottom: 0;
-}
-._9sPoVBFyE_vE87mnZJ5aB {
-    display: var(--ShowLeftSidebar);
-}
-._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
-    border-radius: 3px;
-}
-._3pSPluBgf0NeR1kkCLWMhR._30KGSfPjPskFlnrSxBfkiK {
-    margin-left: 6px;
+/* Main and Secondary Play Button Hover Color */
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
+  background: var(--PlayButtonHover);
+  background-position: 0%;
+  background-size: 330% 100%;
+  color: #fff
 }

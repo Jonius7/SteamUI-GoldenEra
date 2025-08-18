@@ -1,0 +1,46 @@
+/* Gamelist entry - font size */
+._2-O4ZG0KrnSrzISHBKctFQ {
+    font-size: var(--GameListEntrySize);
+}
+
+/* Gamelist entry - icon size */
+._2-O4ZG0KrnSrzISHBKctFQ .ga1hyw11cdBVodrCAidPF {
+    height: 22px;
+    width: 22px;
+}
+
+/* remove border around categories text*/
+._2sYIghGVXJr6tsQVvcryy8 {
+    border: 0px;
+}
+
+/* category name - repositioning */
+._3cV3O8FnPQqpJO5kIMUlLX {
+    margin-top: 3px;
+    padding: 0px 9px 5px 9px;
+}
+
+/* category name - font size and height*/
+._2mZ8LlvoUiyeEUtIWuTri {
+    font-size: var(--CategoryNameHeaderSize);
+    height: 15px;
+}
+
+/* category count - font size and height*/
+._29uten9Yy8q-n7woDEOXVF {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Zoom out both the gamelist container and the hover text for long game names */
+._1ijTaXJJA5YWl_fW2IxcaT, ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    zoom: var(--GameListZoomSize);
+    position: relative;
+}
+
+/* Fix hover text for long game names to the bottom due to non-default zoom size for game list. */
+._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    position: fixed;
+    height: 28px;
+    bottom: 0;
+}

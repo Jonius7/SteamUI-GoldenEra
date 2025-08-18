@@ -1,4 +1,9 @@
 :root {
     /* Home and Search */
-    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%); /* default is a gradient */
+    --SidebarBackgroundColor: linear-gradient(to bottom, #2d333c 0%, #24282f 30%);
+
+    /* Gamepage Play Button */
+    --PlayButtonColor1: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
+    --PlayButtonColor2: linear-gradient(to right, #19b14e 0%, #19b14e 60%);
+    --PlayButtonHover: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
 }

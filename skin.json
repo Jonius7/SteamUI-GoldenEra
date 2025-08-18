@@ -7,22 +7,64 @@
             "values": {
                 "Bottom of page": {
                     "TargetCss": {
-                    "affects": ["^Steam$"],
-                    "src": "config/WhatsNewBottom.css"
+                        "affects": ["^Steam$"],
+                        "src": "config/WhatsNewBottom.css"
                     }
                 },
                 "Top of page": {
                     "TargetCss": {
-                    "affects": ["^Steam$"],
-                    "src": "config/WhatsNewTop.css"
+                        "affects": ["^Steam$"],
+                        "src": "config/WhatsNewTop.css"
                     }
                 },
                 "Hide entirely": {
                     "TargetCss": {
-                    "affects": ["^Steam$"],
-                    "src": "config/WhatsNewHidden.css"
+                        "affects": ["^Steam$"],
+                        "src": "config/WhatsNewHidden.css"
                     }
                 }
+            }
+        },
+        "Remove Shine on Game Images": {
+            "description": "Remove Shine/Glare on game grid images, which can cause discomfort.",
+            "default": "yes",
+            "tab": "Home Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "config/RemoveShine.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Compact Home and Search": {
+            "description": "Condense Home, Collections buttons, Search bar down to 2 rows",
+            "default": "yes",
+            "tab": "Home Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "steam/sidebar/HomeAndSearch.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Pre-2019 Style Game List": {
+            "description": "Show more games with the old style game list",
+            "default": "yes",
+            "tab": "Home Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "steam/sidebar/GameList.css"
+                    }
+                },
+                "no": {}
             }
         }
     },
