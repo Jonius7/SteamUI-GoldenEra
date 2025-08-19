@@ -82,7 +82,7 @@
             }
         },
         "Compact Friends Activity and News": {
-            "description": "Removing spacing and shrinks images to fit in more Friends Activity and News",
+            "description": "Removes spacing and shrinks images to fit in more Friends Activity and News",
             "default": "yes",
             "tab": "Game Page",
             "values": {
@@ -96,7 +96,7 @@
             }
         },
         "Compact Events": {
-            "description": "Removing spacing and shrinks images to fit in more Game Events",
+            "description": "Removes spacing and shrinks images to fit in more Game Events",
             "default": "yes",
             "tab": "Game Page",
             "values": {
@@ -137,7 +137,7 @@
                 "no": {}
             }
         },
-        "Use Custom Accent Color?": {
+        "Use System Accent Color": {
             "description": "Enables Use of System Accent Color from Millennium's settings.",
             "default": "no",
             "tab": "General",
@@ -198,7 +198,7 @@
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.3-beta", 
+    "version": "0.4-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },

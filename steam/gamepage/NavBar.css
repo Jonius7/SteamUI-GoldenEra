@@ -18,3 +18,9 @@
 ._7k4qmaN8SUMvv6u-L81uk ._1b6LYWVijW-9E4YV0keDWZ {
     padding: 3px 12px 3px 12px;
 }
+
+/* Remove excessive margin and padding between items */
+._7k4qmaN8SUMvv6u-L81uk {
+    padding: 4px;
+    margin-right: 0px;
+}
