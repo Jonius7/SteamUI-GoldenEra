@@ -4,9 +4,13 @@
 ._3yD46y5pd3zOGR7CzKs0mC.online, /* Username Online */
 .H4JE-8OU0E7AeMZY3bEeM, /* Family library name in settings */
 .BRmrC-jnwpXqye4oYB21C button.DialogButton, /* double down arrows in settings */
-.online .nOdcT-MoOaXGePXLyPe0H /* online player text */
-{
+.online .nOdcT-MoOaXGePXLyPe0H, /* online player text */
+._3kXEpnxa2qb5znYMSbKT0p /* Patch Notes Downloads Page */ {
     color: var(--SystemAccentColor) !important;
+}
+
+._3kXEpnxa2qb5znYMSbKT0p:hover /* Patch Notes Downloads Page */ {
+    filter: brightness(1.3);
 }
 
 /* Selected Store, Library, Community... text*/
@@ -15,13 +19,8 @@
     text-shadow: 0px 0px 1px var(--SystemAccentColor);
 }
 
-/* Selected Store, Library, Community... Underline */
-._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
-    background: var(--SystemAccentColor);
-}
-
-/* Switches (in settings) */
-._2bl0iQ9xigbq4Zd1NI6NZl::before {
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after, /* Selected Store, Library, Community... Underline */
+._2rxrVvbku0AC8Qbequ4-z9 ._2SvsKGOQeIoV8laKj5Ql5s ._2X_ZpO2X_CIOIEfml3ZTcX ._2KYMMVVayBKt9_rEg88mBZ.B0KOfNkg7hq7nxHumDWOJ /* Search button in Game Servers */ { 
     background: var(--SystemAccentColor);
 }
 
@@ -30,12 +29,14 @@
     background: radial-gradient(color-mix(in srgb, var(--SystemAccentColor), transparent 27%) 0%, var(--SystemAccentColor) 100%);
 }
 
+._2bl0iQ9xigbq4Zd1NI6NZl::before, /* Switches (in settings) */
 ._2_vG6TwMW2XtyLlTEaODH9::before, /* Slider (in settings) */
-.N8aJrSpxQ6II4CY_aFdYI /* New to Library */{
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF, /* Radio button (in settings) */
+.N8aJrSpxQ6II4CY_aFdYI /* New to Library */ {
     background-color: var(--SystemAccentColor);
 }
 
-/* Down Arrow Context Menu */ 
+/* Down Arrow Context Menu */
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
     fill: var(--SystemAccentColor);
 }

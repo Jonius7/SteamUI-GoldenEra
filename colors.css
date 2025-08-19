@@ -10,6 +10,31 @@
     */
     --sidebarbackgroundcolor2: #24282f;
     /* 
+    * @name Category Heading Color 
+    * @description Gamelist Category Heading Gradient Color (left)
+    */
+    --categoryheadingcolor: #292f3b;
+    /* 
+    * @name Category Heading Hover Color 
+    * @description Gamelist Category Heading Hover Color
+    */
+    --categoryheadinghovercolor: #3e4e69;
+    /* 
+    * @name Gamelist Entry Selected Color
+    * @description Gamelist Entry Selected Color
+    */
+    --entryselectedcolor: #3e4e69;
+    /* 
+    * @name Gamelist Entry Selected Hover Color
+    * @description Gamelist Entry Selected Hover Color
+    */
+    --entryselectedhovercolor: #586f96;
+    /* 
+    * @name Gamelist Entry Hover Color
+    * @description Gamelist Entry Hover Color
+    */
+    --entryhovercolor: #323a4b;
+    /* 
     * @name Play Button Color 1
     * @description Play Button Gradient Color 1 (left)
     */
@@ -21,12 +46,12 @@
     --playbuttoncolor2: #01a75b;
     /* 
     * @name Play Button Arrow Color 1
-    * @description Play Button Arrow Gradient Color 1
+    * @description Play Button Arrow Gradient Color 1 (left)
     */
     --playbuttonarrowcolor1: #19b14e;
     /* 
     * @name Play Button Arrow Color 2
-    * @description Play Button Arrow Gradient Color 2
+    * @description Play Button Arrow Gradient Color 2 (right)
     */
     --playbuttonarrowcolor2: #19b14e;
     /* 

@@ -64,6 +64,19 @@
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
     background: linear-gradient(-45deg, var(--playbuttoncolor1) 0%, var(--playbuttoncolor2) 70%);
 }
+/* Context Menu Play Button Hover */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:focus,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:focus,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:focus,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:focus,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
+    background: linear-gradient(-45deg, var(--playbuttonhovercolor1) 0%, var(--playbuttonhovercolor2) 70%);
+}
 /*
   @import steam\sidebar\SidebarTweaks.css */
 /* Show all collections button (View), fix margin, width and centering of text */
