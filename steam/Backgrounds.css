@@ -1,0 +1,24 @@
+/* Home Page Background */
+._3Sb2o_mQ30IDRh0C72QUUu {
+    background-image: linear-gradient(to bottom, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 20%);
+}
+
+/* Dialog Box Background */
+.DialogContent, .DialogContentTransition {
+    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), var(--dialogboxbackgroundcolor);
+}
+
+/* Settings Dialog Box Background */
+.CFTLX2wIKOK3hNV-fS7_V.DesktopUI, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
+    background: var(--settingsbackgroundcolor);
+}
+
+/* Downloads Page Background */
+._1bq4x9pa4-9RLY-dXWUZTp {
+    background: radial-gradient(farthest-corner at 0px 0px, var(--downloadspagebackgroundcolor1) 0%, var(--downloadspagebackgroundcolor2) 90%);
+}
+
+/* Downloads Page Item Hover */
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
+    background-color: var(--downloadspagehover);
+}

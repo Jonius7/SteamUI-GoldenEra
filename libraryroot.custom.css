@@ -33,6 +33,7 @@
     --AppPageBlur: 2px;  /* Default: 8px. Controls the blur between the Header and AppPage content. 2px for a more clean look. */
     --AmbientBlur: black;  /* Default: black 80%. Set to rgba(0,0,0,0) to remove */
 }
+/* @import "./Backgrounds.css"; */
 /*
   @import steam\gamepage\Achievements.css */
 /* Enlarge Achievements content space*/
@@ -82,6 +83,12 @@
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover,
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
     background: linear-gradient(-45deg, var(--playbuttonhovercolor1) 0%, var(--playbuttonhovercolor2) 70%);
+}
+/*
+  @import steam\gamepage\GamePageTweaks.css */
+/* Gamepage Game Details Panel Text Color */
+._2jPMy2QZr8bWi6yrk5ZzHA ._1uS70KI6ZbUE94jUB27ioB ._3GkV1NVDKuXYTLyRt2Uirz {
+    color: rgba(195, 195, 195, 1);
 }
 /*
   @import steam\sidebar\SidebarTweaks.css */

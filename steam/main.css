@@ -1,5 +1,7 @@
 /* @import "../colors.css"; */
 @import "../variables.css";
+/* @import "./Backgrounds.css"; */
 @import "./gamepage/Achievements.css";
 @import "./gamepage/PlayButton.css";
+@import "./gamepage/GamePageTweaks.css";
 @import "./sidebar/SidebarTweaks.css";

@@ -123,6 +123,20 @@
                 "no": {}
             }
         },
+        "Better Gamepage Glass": {
+            "description": "Tweak gamepage \"glass\" below the header to be clearer and possibly less uncomfortable",
+            "default": "yes",
+            "tab": "Game Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "steam/gamepage/GlassEffect.css"
+                    }
+                },
+                "no": {}
+            }
+        },
         "Thicker Scrollbar": {
             "description": "Thicker scrollbar for ease of use",
             "default": "yes",
@@ -164,13 +178,65 @@
                     }
                 }
             }
+        },
+        "Extra Customisable Theme Elements": {
+            "description": "For compabitility with/without Override Theme Styling, on by default",
+            "default": "yes",
+            "tab": "Theming",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/Backgrounds.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Override Theme Styling with Extra Themes": {
+            "description": "Adds extra styling on top of existing theme. WARNING: Some theme stylings are not maintained.",
+            "default": "<None>",
+            "tab": "Theming",
+            "values": {
+                "<None>": {},
+                "Crisp Cut (Jonius7)": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "themes/Crisp Cut.css" 
+                    }
+                },
+                "Acrylic Theme (EliteSkylu)": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "themes/Acrylic Theme.css" 
+                    }
+                },
+                "Dark Library (Thespikedballofdoom)": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "themes/Dark Library.css" 
+                    }
+                },
+                "Pure [Light] (Snudgee)": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "themes/Pure [Light].css" 
+                    }
+                },
+                "OG-Steam-Library (Ungstein)": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "themes/OG-Steam-Library.css" 
+                    }
+                }
+            }
         }
     },
 	"RootColors": "colors.css",
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4.2-beta", 
+    "version": "0.4.4-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },

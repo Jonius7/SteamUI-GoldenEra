@@ -35,6 +35,41 @@
     */
     --entryhovercolor: #323a4b;
     /* 
+    * @name Home Background Color 1
+    * @description Home Background Gradient Color 1 (top)
+    */
+    --homebackgroundcolor1: #2d333c;
+    /* 
+    * @name Home Background Color 2
+    * @description Home Background Gradient Color 2 (bottom)
+    */
+    --homebackgroundcolor2: #24282f;
+    /* 
+    * @name Dialog Box Background Color
+    * @description Dialog Box Background Color (with slight transparent gradient)
+    */
+    --dialogboxbackgroundcolor: #25282e;
+    /* 
+    * @name Settings Background Color
+    * @description Settings Background Color (affects Settings and Game Settings)
+    */
+    --settingsbackgroundcolor: #171d25;
+    /* 
+    * @name Downloads Page Background Color 1
+    * @description Downloads Page Background Color 1 (base)
+    */
+    --downloadspagebackgroundcolor1: #3d4450;
+    /* 
+    * @name Downloads Page Background Color 2
+    * @description Downloads Page Background Color 2 (gradient)
+    */
+    --downloadspagebackgroundcolor2: #23262e;
+    /* 
+    * @name Downloads Page Item Hover
+    * @description Downloads Page Item Hover
+    */
+    --downloadspagehover: #3d4450;
+    /*
     * @name Play Button Color 1
     * @description Play Button Gradient Color 1 (left)
     */

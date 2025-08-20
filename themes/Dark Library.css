@@ -1,0 +1,81 @@
+/* Dark Library by spikedballofdoom
+   https://gamebanana.com/guis/35092
+*/
+
+._2TKEazUUS3TlniZfpc8OOe ._3x1HklzyDs4TEjACrRO2tB {
+    background-color: #0c0c0c;
+}
+
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase:hover {
+    background: #404040;
+}
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
+    background: #2f2f2f;
+}
+._2gSXCB6PbOlMxslr8hm6dm ._17uEBe5Ri8TMsnfELvs8-N{
+    background: #111;
+}
+div.LowPerfMode ._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    background: linear-gradient(to top, rgba(36, 40, 47, 0) 0%, rgba(0, 0, 0, 0) calc( 100% - 2px), rgba(193, 202, 207, 0.1) calc( 100% - 1px), rgba(29, 29, 29, 0.3) 100%);
+}
+._2OOzYVWIHaKXm6_7sscT9i .Jbe--NUNw7sxbxGsMSjVa {
+    background: #00000000; 
+}
+._2OOzYVWIHaKXm6_7sscT9i > div {
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.62) 0%, 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
+    background: #000000a1;
+}
+.UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT {
+    background: rgb(23, 23, 23); 
+}
+._3Sb2o_mQ30IDRh0C72QUUu {
+    background-image: none;
+    background-color: #0c0c0c ;
+}
+
+._3x1HklzyDs4TEjACrRO2tB {
+    background-image: none; 
+    background-color: #0c0c0c !important;
+}
+
+._2sYIghGVXJr6tsQVvcryy8 {
+    background: none;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb {
+    background: #0e203a;
+}
+
+.u1xD3KJEgksF_J_5TLZzO {
+    background: radial-gradient(100% 100% at 33% 45%, #0c0c0b 0%, #101314 100%);
+}
+
+._2sNr7PFYcJZWNkEMCDVVPR {
+    background: radial-gradient(100% 100% at 33% 45%, #080808 0%, #101314 100%);
+}
+
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
+    border-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/*ENTIRE BAR*/
+._1bq4x9pa4-9RLY-dXWUZTp {
+    background: none;
+    background-color: #0c0c0c;
+}
+
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
+    background-color: #171717;
+    border-radius: 2px;
+}
+/*BAR BUTTONS*/
+._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton {
+background: #212121 !important;
+}
+._1VNuYHM6BPBOJspC6zPf5r:hover ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
+background: #3f3f3f !important;
+}
