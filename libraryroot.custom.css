@@ -3,29 +3,35 @@
   @import variables.css */
 /* Configurable variables */
 :root {
-  /* Left Sidebar - Games List */
-  --GameListEntrySize: 16px;  /* Default: 16px.  */
-  --CategoryNameHeaderSize: 13px;  /* Default: 13px.  */
-  --GameListZoomSize: 75%;  /* Default: 100%. 75% highly recommended for Game List similar to old Library UI. Affects GameListEntrySize and CategoryNameHeaderSize */
-
-  /* Game Grid */
-  --GameImageTransition: 1s;  /* Default: .4s, .4s, .4s, .2s. Grid Game Images transition time. 0s for instant, 2s for smooth. */
-  --UninstalledGameImageOpacity: 0.5;  /* Default: 1. Suggested values: 0.5, 0.2 */
-  --GameGridImageBackground: inherit;  /* Default: inherit. Default is inherit, set #365d2d for a friendly green */
-  --GridRowGap: 8px;  /* Default: 24px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
-  --GridColumnGap: 5px;  /* Default: 16px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
-  --RemoveGameHover: block;  /* Default: block. Set to none to remove game preview box when hovering over game */
-
-  /* Game Page Layout */
-  --AchievementsClickHighlight: Highlight_opacity;  /* Default: appdetailsoverview_HighlightMe_25jnp. Options: Highlight_opacity Highlight_border. Set to disabled to disable. */
-
-  /* Game Page Elements */
-  --RecommendGame: block;  /* Default: block. Set to none to hide "Recommond this game" box on game page. */
-  --DLCAvailableContent: none;  /* Default: block. Set to none to hide the DLC Available Content box. */
-
-  /* Game Page Background */
-  --AppPageBlur: 2px;  /* Default: 8px. Controls the blur between the Header and AppPage content. 2px for a more clean look. */
-  --AmbientBlur: black;  /* Default: black 80%. Set to rgba(0,0,0,0) to remove */
+    /* Left Sidebar - Games List */
+    --GameListEntrySize: 16px;  /* Default: 16px.  */
+    --CategoryNameHeaderSize: 13px;  /* Default: 13px.  */
+    --GameListZoomSize: 75%;  /* Default: 100%. 75% highly recommended for Game List similar to old Library UI. Affects GameListEntrySize and CategoryNameHeaderSize */
+    
+    /* Game Grid */
+    --GameImageTransition: 1s;  /* Default: .4s, .4s, .4s, .2s. Grid Game Images transition time. 0s for instant, 2s for smooth. */
+    --UninstalledGameImageOpacity: 0.5;  /* Default: 1. Suggested values: 0.5, 0.2 */
+    --GameGridImageBackground: inherit;  /* Default: inherit. Default is inherit, set #365d2d for a friendly green */
+    --GridRowGap: 8px;  /* Default: 24px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
+    --GridColumnGap: 5px;  /* Default: 16px. Corresponds with JavaScript tweak - Home Page Grid Spacing. */
+    --RemoveGameHover: block;  /* Default: block. Set to none to remove game preview box when hovering over game */
+    
+    /* Bottom Bar to top */
+    --username-length: 147px; /* width of your username - you will need to configure this */
+    --order-friends: 3; /* Reorder Friends & Chat Button  */
+    --order-add-game: 2; /* Reorder Add a Game Button  */
+    --order-download: 1; /* Reorder Manage Downloads Button  */
+    
+    /* Game Page Layout */
+    --AchievementsClickHighlight: Highlight_opacity;  /* Default: appdetailsoverview_HighlightMe_25jnp. Options: Highlight_opacity Highlight_border. Set to disabled to disable. */
+    
+    /* Game Page Elements */
+    --RecommendGame: block;  /* Default: block. Set to none to hide "Recommond this game" box on game page. */
+    --DLCAvailableContent: none;  /* Default: block. Set to none to hide the DLC Available Content box. */
+    
+    /* Game Page Background */
+    --AppPageBlur: 2px;  /* Default: 8px. Controls the blur between the Header and AppPage content. 2px for a more clean look. */
+    --AmbientBlur: black;  /* Default: black 80%. Set to rgba(0,0,0,0) to remove */
 }
 /*
   @import steam\gamepage\Achievements.css */

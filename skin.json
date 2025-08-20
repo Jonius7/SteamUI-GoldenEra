@@ -74,7 +74,7 @@
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"],
+                        "affects": ["^Steam$"],
                         "src": "steam/gamepage/Columns.css"
                     }
                 },
@@ -88,7 +88,7 @@
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"],
+                        "affects": ["^Steam$"],
                         "src": "steam/gamepage/ActivityNews.css"
                     }
                 },
@@ -102,7 +102,7 @@
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"],
+                        "affects": ["^Steam$"],
                         "src": "steam/gamepage/Events.css"
                     }
                 },
@@ -116,7 +116,7 @@
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"],
+                        "affects": ["^Steam$"],
                         "src": "steam/gamepage/NavBar.css"
                     }
                 },
@@ -150,13 +150,27 @@
                     }
                 }
             }
+        },
+        "Move Bottom Bar To Top": {
+            "description": "Moves Bottom Bar of Add a Game, Manage Downloads, Friends & Chat to the top of window.",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "header/BottomHeaderToTop.css" 
+                    }
+                }
+            }
         }
     },
 	"RootColors": "colors.css",
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4-beta", 
+    "version": "0.4.2-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },

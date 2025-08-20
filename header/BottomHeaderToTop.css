@@ -1,0 +1,74 @@
+/** Position the buttons **/
+._1_yS5UP7el0aN4vntx3dx {
+    padding: 0;
+    position: absolute;
+    --steam-control-width: 243px;
+    right: calc(var(--steam-control-width) + var(--username-length));
+    top: 6px;
+    display: flex;
+    align-items: end;
+}
+
+/* Bottom Bar move to top */
+._3vCzSrrXZzZjVJFZNg9SGu {
+    flex: 0;
+    background: transparent;
+    box-shadow: unset;
+    border-radius: 0;
+}
+
+/* Bottom Bar Text */
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k,
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k,
+.ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
+    display: none;
+}
+
+/* Button Styling */
+._1TdaAqMFadi0UTqilrkelR, ._2foCkpRXhqq0UGVE50BWqj, ._2EQ7ghgqIdjKv9jsQC0Zq9 {
+    padding: 0px 12px;
+    border-radius: 2px;
+    min-width: 24px;
+    min-height: 24px;
+    max-height: 24px;
+    margin-right: 8px; /* Spacing between buttons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(103,112,123,.2);
+}
+
+/* Button Styling (hover) */
+._1TdaAqMFadi0UTqilrkelR:hover, ._2foCkpRXhqq0UGVE50BWqj:hover, ._2EQ7ghgqIdjKv9jsQC0Zq9:hover {
+    background-color: #3d4450;
+    transition: background-color .15s ease-out;
+}
+
+/* Nudge Downloads button */
+.ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
+    margin-top: -3px;
+}
+
+/* Downloads bar (when downloading) */
+._2VtAqT03BpBsVdmxwptn9D {
+    width: 16.88vw;
+}
+
+/** Change the order and override some styles **/
+._1TdaAqMFadi0UTqilrkelR {
+    order: var(--order-friends);
+}
+
+._2foCkpRXhqq0UGVE50BWqj {
+    order: var(--order-add-game);
+}
+
+._2EQ7ghgqIdjKv9jsQC0Zq9 {
+    
+    order: var(--order-download);
+}
+
+/* Remove Maximized box-shadow line */
+._3vCzSrrXZzZjVJFZNg9SGu.Maximized, .Maximized ._3vCzSrrXZzZjVJFZNg9SGu {
+    box-shadow: unset;
+}
