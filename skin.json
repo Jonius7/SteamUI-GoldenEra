@@ -173,24 +173,14 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"],
+                        "affects": ["^Steam$"],
                         "src": "header/BottomHeaderToTop.css" 
+                    },
+                    "TargetJs": {
+                        "affects": ["^Steam$"],
+                        "src": "header/BottomHeaderToTop.js" 
                     }
                 }
-            }
-        },
-        "Extra Customisable Theme Elements": {
-            "description": "For compabitility with/without Override Theme Styling, on by default",
-            "default": "yes",
-            "tab": "Theming",
-            "values": {
-                "yes": {
-                    "TargetCss": {
-                        "affects": [".*"],
-                        "src": "steam/Backgrounds.css"
-                    }
-                },
-                "no": {}
             }
         },
         "Override Theme Styling with Extra Themes": {
@@ -230,13 +220,52 @@
                     }
                 }
             }
+        },
+        "Customisable Backgrounds": {
+            "description": "Turn off if you want to use Override Theme Styling, on by default",
+            "default": "yes",
+            "tab": "Theming",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": ["steam/Backgrounds.css"]
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Customisable Buttons": {
+            "description": "Turn off if you want to use Override Theme Styling, on by default",
+            "default": "yes",
+            "tab": "Theming",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": ["steam/Buttons.css"]
+                    }
+                },
+                "no": {}
+            }
         }
     },
+    "Patches" : [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "custom.css"
+        }
+    ],
 	"RootColors": "colors.css",
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4.4-beta", 
+    "version": "0.4.6-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },
@@ -253,6 +282,6 @@
     ],
     "header_image": "https://i.imgur.com/8V4V7HU.png",
     "splash_image": "https://i.imgur.com/8V4V7HU.png",
-    "Steam-WebKit": "webkit.css",
+    "Steam-WebKit": "webkit/webkit.css",
     "UseDefaultPatches": true
 }

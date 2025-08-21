@@ -3,6 +3,11 @@
     background-image: linear-gradient(to bottom, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 20%);
 }
 
+.u1xD3KJEgksF_J_5TLZzO, /* Collections Page Background */
+._2sNr7PFYcJZWNkEMCDVVPR /* Hidden/Soundtracks Page Background */ {
+    background: radial-gradient(100% 100% at 33% 45%, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 100%);
+}
+
 /* Dialog Box Background */
 .DialogContent, .DialogContentTransition {
     background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), var(--dialogboxbackgroundcolor);

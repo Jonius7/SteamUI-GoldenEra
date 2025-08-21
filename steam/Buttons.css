@@ -1,0 +1,14 @@
+ /* Home, Collections Buttons */
+ ._3pSPluBgf0NeR1kkCLWMhR {
+    background-color: var(--buttoncolor);
+}
+
+/* Home, Collections Buttons Hover */
+._3pSPluBgf0NeR1kkCLWMhR:hover {
+    background-color: var(--buttonhovercolor);
+}
+
+/*Dialog box button color */
+button.DialogButton.Primary, button.DialogButton.Primary:hover {
+    background: linear-gradient(to right, var(--dialogboxbuttoncolor1) 0%, var(--dialogboxbuttoncolor2) 60%);
+}

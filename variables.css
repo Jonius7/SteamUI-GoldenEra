@@ -14,7 +14,6 @@
     --RemoveGameHover: block;  /* Default: block. Set to none to remove game preview box when hovering over game */
     
     /* Bottom Bar to top */
-    --username-length: 147px; /* width of your username - you will need to configure this */
     --order-friends: 3; /* Reorder Friends & Chat Button  */
     --order-add-game: 2; /* Reorder Add a Game Button  */
     --order-download: 1; /* Reorder Manage Downloads Button  */

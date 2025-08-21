@@ -6,7 +6,8 @@
 .BRmrC-jnwpXqye4oYB21C button.DialogButton, /* double down arrows in settings */
 .online .nOdcT-MoOaXGePXLyPe0H, /* online player text */
 ._3kXEpnxa2qb5znYMSbKT0p, /* Patch Notes Downloads Page */
-._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._1KmR8MOpvgQ9OO2AmwOCca /* Storage Available Text (Game Settings) */ {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._1KmR8MOpvgQ9OO2AmwOCca, /* Storage Available Text (Game Settings) */
+._2yUw38WTqPyZaPo3WENI46 /* Activation Successful Game Name */ {
     color: var(--SystemAccentColor) !important;
 }
 
