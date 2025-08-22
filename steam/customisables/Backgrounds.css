@@ -1,36 +1,42 @@
 /* Home Page Background */
 ._3Sb2o_mQ30IDRh0C72QUUu {
-    background-image: linear-gradient(to bottom, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 20%);
+    background-image: linear-gradient(to bottom, var(--homebackground1) 0%, var(--homebackground2) 20%);
 }
 
 .u1xD3KJEgksF_J_5TLZzO, /* Collections Page Background */
 ._2sNr7PFYcJZWNkEMCDVVPR /* Hidden/Soundtracks Page Background */ {
-    background: radial-gradient(100% 100% at 33% 45%, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 100%);
+    background: radial-gradient(100% 100% at 33% 45%, var(--homebackground1) 0%, var(--homebackground2) 100%);
 }
 
 /* Dialog Box Background */
 .DialogContent, .DialogContentTransition {
-    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), var(--dialogboxbackgroundcolor);
+    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), var(--dialogboxbackground);
+}
+
+/* Filters Box Background */
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6 {
+    background: color-mix(in srgb, var(--dialogboxbackground) 82%, white 18%);
 }
 
 /* Settings Dialog Box Background */
 .CFTLX2wIKOK3hNV-fS7_V.DesktopUI, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
-    background: var(--settingsbackgroundcolor);
+    background: var(--settingsbackground);
 }
 
-/* Settings Dialog Box Body Background */
-._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
-    background: var(--settingsbodybackgroundcolor);
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW, /* Settings Dialog Box Body Background (DLC Manager) */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd /* (Workshop) */ {
+    background: var(--settingsbodybackground);
 }
 
-/* Settings Dialog Input Box Background */
-.DialogTextInputBase, ._DialogInputContainer {
-    background: color-mix(in srgb, var(--settingsinputboxcolor), transparent 50%);
+/* Controller Steam Input Status Background */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko {
+    background: color-mix(in srgb, var(--settingsdialogbox), transparent 80%);
 }
 
 /* Downloads Page Background */
 ._1bq4x9pa4-9RLY-dXWUZTp {
-    background: radial-gradient(farthest-corner at 0px 0px, var(--downloadspagebackgroundcolor1) 0%, var(--downloadspagebackgroundcolor2) 90%);
+    background: radial-gradient(farthest-corner at 0px 0px, var(--downloadspagebackground1) 0%, var(--downloadspagebackground2) 90%);
 }
 
 /* Downloads Page Item Hover */

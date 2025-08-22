@@ -15,6 +15,46 @@
     filter: brightness(1.3);
 }
 
+/* Ready to Play Button */
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq svg,
+._23SnllqT_AqZ1C_QHcNQ4Z .SVGIcon_ReadyToPlay path {
+    fill: color-mix(in srgb, var(--SystemAccentColor) 73%, white);
+}
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq svg path,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq svg line,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq svg polyline,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq svg circle,
+._23SnllqT_AqZ1C_QHcNQ4Z .SVGIcon_ReadyToPlay circle {
+    stroke:  color-mix(in srgb, var(--SystemAccentColor) 73%, white);
+}
+
+/* Ready to Play Button Hover */
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq:hover svg {
+    fill: color-mix(in srgb, var(--SystemAccentColor) 41%, white);
+}
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq:hover svg path,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq:hover svg line,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq:hover svg polyline,
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq:hover svg circle {
+    stroke: color-mix(in srgb, var(--SystemAccentColor) 41%, white);
+}
+
+
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._2rILnoW6swWh4_9TDWWc31, /* Filters button selected */
+._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW /* categories selected */ {
+    background-color: color-mix(in srgb, var(--SystemAccentColor) 98%, white 2%);
+}
+
+
+/* Categories headings in filter */
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._3iV2vMTw_vwWJ_gmiz1Q1k {
+    color: color-mix(in srgb, var(--SystemAccentColor) 95%, white 5%);
+}
+/* Checkboxes for categories */
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY svg path {
+    stroke: color-mix(in srgb, var(--SystemAccentColor) 95%, white 5%);
+}
+
 /* Selected Store, Library, Community... text*/
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
     color: var(--SystemAccentColor);

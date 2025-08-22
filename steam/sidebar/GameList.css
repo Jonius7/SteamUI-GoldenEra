@@ -12,27 +12,27 @@
 /* Gamelist category title - remove border, customisable color */
 ._2sYIghGVXJr6tsQVvcryy8 {
     border: 0px;
-    background: linear-gradient(to right, var(--categoryheadingcolor) 40%, rgb(150 192 103 / 0%) 100%)
+    background: linear-gradient(to right, var(--categoryheading) 40%, rgb(150 192 103 / 0%) 100%)
 }
 
 /* Gamelist category title - hover color */
 ._2sYIghGVXJr6tsQVvcryy8:hover {
-    background: var(--categoryheadinghovercolor);
+    background: var(--categoryheadinghover);
 }
 
 /* Gamelist entry selected color */
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ {
-    background-color: var(--entryselectedcolor);
+    background-color: var(--entryselected);
 }
 
 /* Gamelist entry selected hover color */
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {
-    background-color: var(--entryselectedhovercolor);
+    background-color: var(--entryselectedhover);
 }
 
 /* Gamelist entry hover color */
 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
-    background-color: var(--entryhovercolor);
+    background-color: var(--entryhover);
 }
 
 /* category name - repositioning */

@@ -1,14 +1,77 @@
- /* Home, Collections Buttons */
+/* 
+  HOME, COLLECTIONS, SHOW ALL COLLECTIONS */
+/* Home, Collections Buttons */
  ._3pSPluBgf0NeR1kkCLWMhR {
-    background-color: var(--buttoncolor);
+    background-color: var(--homebutton);
 }
 
-/* Home, Collections Buttons Hover */
-._3pSPluBgf0NeR1kkCLWMhR:hover {
-    background-color: var(--buttonhovercolor);
+/* Home, Collections Buttons Hover/Selected */
+._3pSPluBgf0NeR1kkCLWMhR:hover, ._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
+    background-color: var(--homebuttonhover);
 }
 
+/* Show All Collections Button (View Menu) */
+/* equivalent to #3d3f47 with default value */
+._2Q95p8Q2cZFieeOi06-FS9 {
+    background-color: color-mix(in srgb, var(--homebutton) 88.5%, white 11.5%);
+}
+/* Show All Collections Button (View Menu) hover */
+/* equivalent to #545763 with default value */
+._2Q95p8Q2cZFieeOi06-FS9:hover {
+    background-color: color-mix(in srgb, var(--homebuttonhover) 87.8%, white 12.2%);
+}
+
+/* 
+  DIALOG BOX */
 /*Dialog box button color */
 button.DialogButton.Primary, button.DialogButton.Primary:hover {
-    background: linear-gradient(to right, var(--dialogboxbuttoncolor1) 0%, var(--dialogboxbuttoncolor2) 60%);
+    background: linear-gradient(to right, var(--dialogboxbutton1) 0%, var(--dialogboxbutton2) 60%);
 }
+
+/* Hover dialog box button color change */
+button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
+    background-position: 0%;
+    background-size: 330% 100%;
+    color: #fff;
+}
+
+/* Selected/Focused dialog box button color change */
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+    background: linear-gradient(to right, var(--dialogboxbutton1) 0%, var(--dialogboxbutton2) 60%);
+    background-position: 40%;
+    transition-duration: .04s;
+}
+
+.DialogTextInputBase, ._DialogInputContainer, /* Settings Dialog Input Box Background */ 
+.JA6JIY08WWMEfWP-sZkZ2.DesktopUI, .DesktopUI .JA6JIY08WWMEfWP-sZkZ2, /* Settings Input Box/Button Color */ 
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU,
+._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz ._1KAp5PPYG7si-T_66zNEcU, /* incl. Installed Files buttons */
+._3epr8QYWw_FqFgMx38YEEm.DesktopUI, .DesktopUI ._3epr8QYWw_FqFgMx38YEEm, /* Settings -> Account buttons */ 
+.BRmrC-jnwpXqye4oYB21C button.DialogButton /* Settings -> Notifications -> Expand buttons */{
+    background: color-mix(in srgb, var(--settingsdialogbox), transparent 50%);
+}
+
+._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Settings Dialog DropDown Hover Background */
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:hover,
+._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz ._1KAp5PPYG7si-T_66zNEcU:hover, /* incl. Installed Files buttons */
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover,
+._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogDropDown:hover /* Updates Dropdowns hover */ {   
+    background: var(--settingsdialogboxhover);
+}
+
+/* Settings Dialog Input Hover */
+.DialogTextInputBase:not(:disabled):hover {
+    background: color-mix(in srgb, var(--settingsdialoginputhover), transparent 60%);
+}
+
+/* Settings Dialog Input Selected */
+.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+    background: var(--settingsdialoginputselected)
+}
+
+/* Settings Dialog Box Hover Color */
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: var(--settingsdialogboxhover);
+    color: #fff;
+}
+

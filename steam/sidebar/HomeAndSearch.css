@@ -1,6 +1,6 @@
 /* Home and Search container grid setup */
 ._3x1HklzyDs4TEjACrRO2tB {
-    background-image: linear-gradient(to bottom, var(--sidebarbackgroundcolor1) 0%, var(--sidebarbackgroundcolor2) 30%);;
+    background-image: linear-gradient(to bottom, var(--sidebarbackground1) 0%, var(--sidebarbackground2) 30%);;
     display: grid !important;
     grid-template-rows: 38px fit-content(20%) fit-content(5%) minmax(0px, 95%);
     grid-template-columns: minmax(94px, 35%) auto;
