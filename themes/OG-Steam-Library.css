@@ -179,19 +179,8 @@ button.DialogButton.Primary:enabled:hover:active {
 
 
 /* Dialogue Boxes --------------------------------------------------------------------------------------------------------*/
-
-
-
-.DialogContent {
-	
-}
-
 .DialogContent_InnerWidth {
 	overflow: visible;
-}
-
-._DialogColLayout {
-	
 }
 
 .DialogBody {
@@ -472,9 +461,6 @@ button.DialogButton.Primary:enabled:hover:active {
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--LightGreenBG);
-}
-._1ZS_xta5HMXzR8JgxDH6n7 {
-	padding: 0px 6px 0px;
 }
 
 ._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC:hover {

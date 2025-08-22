@@ -67,6 +67,20 @@
                 "no": {}
             }
         },
+        "Home Icon": {
+            "description": "Replace HOME text with a Home Icon",
+            "default": "no",
+            "tab": "Home Page",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"],
+                        "src": "steam/sidebar/HomeIcon.css"
+                    }
+                },
+                "no": {}
+            }
+        },
         "Swap Gamepage Columns": {
             "description": "Swaps gamepage columns and changes their widths to mimic a Pre-2019 library layout",
             "default": "yes",
@@ -221,7 +235,7 @@
                 }
             }
         },
-        "Customisable Backgrounds": {
+        "More Customisable Colors (Backgrounds/Buttons)": {
             "description": "Turn off if you want to use Override Theme Styling, on by default",
             "default": "yes",
             "tab": "Theming",
@@ -229,21 +243,7 @@
                 "yes": {
                     "TargetCss": {
                         "affects": [".*"],
-                        "src": ["steam/Backgrounds.css"]
-                    }
-                },
-                "no": {}
-            }
-        },
-        "Customisable Buttons": {
-            "description": "Turn off if you want to use Override Theme Styling, on by default",
-            "default": "yes",
-            "tab": "Theming",
-            "values": {
-                "yes": {
-                    "TargetCss": {
-                        "affects": [".*"],
-                        "src": ["steam/Buttons.css"]
+                        "src": ["steam/Customisables.css"]
                     }
                 },
                 "no": {}
@@ -265,7 +265,7 @@
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4.6-beta", 
+    "version": "0.4.7-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },

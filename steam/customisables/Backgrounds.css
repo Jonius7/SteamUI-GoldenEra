@@ -1,0 +1,39 @@
+/* Home Page Background */
+._3Sb2o_mQ30IDRh0C72QUUu {
+    background-image: linear-gradient(to bottom, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 20%);
+}
+
+.u1xD3KJEgksF_J_5TLZzO, /* Collections Page Background */
+._2sNr7PFYcJZWNkEMCDVVPR /* Hidden/Soundtracks Page Background */ {
+    background: radial-gradient(100% 100% at 33% 45%, var(--homebackgroundcolor1) 0%, var(--homebackgroundcolor2) 100%);
+}
+
+/* Dialog Box Background */
+.DialogContent, .DialogContentTransition {
+    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), var(--dialogboxbackgroundcolor);
+}
+
+/* Settings Dialog Box Background */
+.CFTLX2wIKOK3hNV-fS7_V.DesktopUI, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
+    background: var(--settingsbackgroundcolor);
+}
+
+/* Settings Dialog Box Body Background */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
+    background: var(--settingsbodybackgroundcolor);
+}
+
+/* Settings Dialog Input Box Background */
+.DialogTextInputBase, ._DialogInputContainer {
+    background: color-mix(in srgb, var(--settingsinputboxcolor), transparent 50%);
+}
+
+/* Downloads Page Background */
+._1bq4x9pa4-9RLY-dXWUZTp {
+    background: radial-gradient(farthest-corner at 0px 0px, var(--downloadspagebackgroundcolor1) 0%, var(--downloadspagebackgroundcolor2) 90%);
+}
+
+/* Downloads Page Item Hover */
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
+    background-color: var(--downloadspagehover);
+}

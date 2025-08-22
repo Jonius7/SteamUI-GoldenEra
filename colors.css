@@ -65,6 +65,16 @@
     */
     --settingsbackgroundcolor: #171d25;
     /* 
+    * @name Settings Body Background Color
+    * @description Settings Body Background Color (eg DLC Manager table)
+    */
+    --settingsbodybackgroundcolor: #23262e;
+    /* 
+    * @name Settings Input Box Color
+    * @description Settings Input Box Color (eg Launch Options)
+    */
+    --settingsinputboxcolor: #3b3f48;
+    /* 
     * @name Downloads Page Background Color 1
     * @description Downloads Page Background Color 1 (base)
     */
