@@ -51,9 +51,14 @@
     --homebutton: #25272d;
     /*
     * @name Home and Collections Button Hover Color
-    * @description Home and Collections Button Hover Color
+    * @description Home and Collections Button Hover/Selected Color
     */
     --homebuttonhover: #3e4047;
+    /*
+    * @name Games Dropdown and Search Bar Color
+    * @description Games Dropdown and Search Bar Color
+    */
+    --searchbar: #212124;
     /* 
     * @name Dialog Box Background Color
     * @description Dialog Box Background Color (with slight transparent gradient)
@@ -61,7 +66,7 @@
     --dialogboxbackground: #25282e;
     /* 
     * @name Dialog Box Colored Button Color 1
-    * @description Dialog Box Gradien Colored Button Color 1  (left)
+    * @description Dialog Box Gradient Colored Button Color 1 (left)
     */
     --dialogboxbutton1: #47bfff;
     /* 
@@ -114,6 +119,21 @@
     * @description Downloads Page Item Hover
     */
     --downloadspagehover: #3d4450;
+    /* 
+    * @name Gamepage Glass Color
+    * @description Gamepage Glass Color
+    */
+    --gamepageglass: #333333;
+    /* 
+    * @name Gamepage Background Color 1
+    * @description Gamepage Background Color 1
+    */
+    --gamepagebackground1: #2c323d;
+    /* 
+    * @name Gamepage Background Color 2
+    * @description Gamepage Background Color 2
+    */
+    --gamepagebackground2: #151616;
     /*
     * @name Play Button Color 1
     * @description Play Button Gradient Color 1 (left)
@@ -143,5 +163,5 @@
     * @name Play Button Hover Color 2
     * @description Play Button Hover Gradient Color 2 
     */
-    --playbuttonhover2: #01a75b;
+    --playbuttonhover2: #01a75b;    
 }

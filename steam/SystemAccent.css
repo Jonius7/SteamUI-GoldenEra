@@ -39,6 +39,11 @@
     stroke: color-mix(in srgb, var(--SystemAccentColor) 41%, white);
 }
 
+/* Ready to Play text in Collections */
+._3t1pLSlyQNch796PyUolcK ._38IOu1p2yIVM7uP-dMWew6 {
+    color: color-mix(in srgb, var(--SystemAccentColor) 73%, white);
+}
+
 
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._2rILnoW6swWh4_9TDWWc31, /* Filters button selected */
 ._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW /* categories selected */ {
@@ -86,4 +91,9 @@
 /* Item Drag Box Border Color */
 .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T, .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T:has(._3-SbBb63lDnu6LzKV-q3Cg) {
     border: 2px dashed var(--SystemAccentColor);
+}
+
+/* Downloads Page Top Left Bar */
+._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z {
+    background: linear-gradient(to right, color-mix(in srgb, var(--SystemAccentColor) 84%, black 16%) 0%, var(--SystemAccentColor) 100%);
 }

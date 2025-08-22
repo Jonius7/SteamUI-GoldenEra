@@ -43,3 +43,8 @@
 ._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
     background-color: var(--downloadspagehover);
 }
+
+/* Game Page Background Color */
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
+    background-image: radial-gradient(100% 100% at 45% 35%, var(--gamepagebackground1) 0%, var(--gamepagebackground2) 100%);
+}

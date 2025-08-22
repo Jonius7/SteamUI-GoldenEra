@@ -46,8 +46,11 @@
 ._3pSPluBgf0NeR1kkCLWMhR {
     background-color: var(--homebutton);
 }
-/* Home, Collections Buttons Hover/Selected */
-._3pSPluBgf0NeR1kkCLWMhR:hover, ._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
+._3pSPluBgf0NeR1kkCLWMhR:hover, ._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3, /* Home, Collections Buttons Hover/Selected */
+._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC:hover, /* Games Dropdown Hover */
+.uE7Pj4tb2n3_Bx4vjEX0a:hover .SVGIcon_Arrow /* Scroll to Top Hover */,
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._31r1_h2SmzwQtP9ZLLyA0I, 
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU:not(._1Gjk27xaRIzt2zOSwOSP0N):hover /* Filter Button Hover */ {
     background-color: var(--homebuttonhover);
 }
 /* Show All Collections Button (View Menu) */
@@ -59,6 +62,10 @@
 /* equivalent to #545763 with default value */
 ._2Q95p8Q2cZFieeOi06-FS9:hover {
     background-color: color-mix(in srgb, var(--homebuttonhover) 87.8%, white 12.2%);
+}
+._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC, /* Games Dropdown */
+._20QAC4WMXm8qFE8waUT5oo /* Search Bar */ {
+    background-color: color-mix(in srgb, var(--searchbar) 60%, transparent 40%);
 }
 /* 
   DIALOG BOX */

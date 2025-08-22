@@ -236,7 +236,7 @@
             }
         },
         "More Customisable Colors (Backgrounds/Buttons)": {
-            "description": "Turn off if you want to use Override Theme Styling, on by default",
+            "description": "Some themes in Override Theme Styling want this turned off, on by default",
             "default": "yes",
             "tab": "Theming",
             "values": {
@@ -265,7 +265,7 @@
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4.9-beta", 
+    "version": "0.4.10-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },
