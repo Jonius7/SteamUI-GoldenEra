@@ -1,5 +1,10 @@
 :root {
     /* 
+    * @name Header Color
+    * @description Header Color
+    */
+    --headercolor: #171d25;
+    /* 
     * @name Sidebar Color 1
     * @description Sidebar Gradient Color 1 (top)
     */
@@ -123,7 +128,7 @@
     * @name Gamepage Glass Color
     * @description Gamepage Glass Color
     */
-    --gamepageglass: #333333;
+    --gamepageglass: #272c35;
     /* 
     * @name Gamepage Background Color 1
     * @description Gamepage Background Color 1
@@ -134,6 +139,36 @@
     * @description Gamepage Background Color 2
     */
     --gamepagebackground2: #151616;
+    /* 
+    * @name Gamepage Section Banner Background Color 1
+    * @description Gamepage Section Banner Background Color 1 (eg: Achievements, Trading Cards, Review)
+    */
+    --gamepagesectionbanner1: #3b414a;
+    /* 
+    * @name Gamepage Section Banner Background Color 2
+    * @description Gamepage Section Banner Background Color 2 (eg: Achievements, Trading Cards, Review)
+    */
+    --gamepagesectionbanner2: #2c3138;
+    /* 
+    * @name Gamepage Achievements Item Background Color 1
+    * @description Gamepage Achievements Item Background Color 1
+    */
+    --gamepageachievements1: #2e323a;
+    /* 
+    * @name Gamepage Achievements Item Background Color 2
+    * @description Gamepage Achievements Item Background Color 2
+    */
+    --gamepageachievements2: #24282f;
+    /* 
+    * @name Gamepage Events Background Color
+    * @description Gamepage Events Background Radial Gradient Color (item)
+    */
+    --gamepageevents: #24282f;
+    /* 
+    * @name Gamepage Events Background Hover Color
+    * @description Gamepage Events Background Radial Gradient Hover Color (item)
+    */
+    --gamepageeventshover: #536868;
     /*
     * @name Play Button Color 1
     * @description Play Button Gradient Color 1 (left)

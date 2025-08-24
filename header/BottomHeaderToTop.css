@@ -37,7 +37,8 @@
 
 /* Button Styling (hover) */
 ._1TdaAqMFadi0UTqilrkelR:hover, ._2foCkpRXhqq0UGVE50BWqj:hover, ._2EQ7ghgqIdjKv9jsQC0Zq9:hover {
-    background-color: #3d4450;
+    /*background-color: #3d4450;*/
+    background-color: var(--homebuttonhover);
     transition: background-color .15s ease-out;
 }
 
@@ -69,3 +70,4 @@
 ._3vCzSrrXZzZjVJFZNg9SGu.Maximized, .Maximized ._3vCzSrrXZzZjVJFZNg9SGu {
     box-shadow: unset;
 }
+

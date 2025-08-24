@@ -197,6 +197,20 @@
                 }
             }
         },
+        "More Customisable Colors (Backgrounds/Buttons)": {
+            "description": "Some themes in Override Theme Styling want this turned off, on by default",
+            "default": "yes",
+            "tab": "Theming",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"],
+                        "src": "steam/Customisables.css"
+                    }
+                },
+                "no": {}
+            }
+        },
         "Override Theme Styling with Extra Themes": {
             "description": "Adds extra styling on top of existing theme. WARNING: Some theme stylings are not maintained.",
             "default": "<None>",
@@ -234,20 +248,6 @@
                     }
                 }
             }
-        },
-        "More Customisable Colors (Backgrounds/Buttons)": {
-            "description": "Some themes in Override Theme Styling want this turned off, on by default",
-            "default": "yes",
-            "tab": "Theming",
-            "values": {
-                "yes": {
-                    "TargetCss": {
-                        "affects": [".*"],
-                        "src": "steam/Customisables.css"
-                    }
-                },
-                "no": {}
-            }
         }
     },
     "Patches" : [
@@ -265,7 +265,7 @@
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4.10-beta", 
+    "version": "0.4.12-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },

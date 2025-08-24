@@ -43,3 +43,9 @@
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
     background: linear-gradient(-45deg, var(--playbuttonhover1) 0%, var(--playbuttonhover2) 70%);
 }
+
+/* Play button width to be the same with dropdown */
+._1FnJ6dPuknQFQ2RTpKTI16._1hhB2Wf7iExA15zh_lDQ_y {
+    max-width: 164px;
+    min-width: 164px;
+}

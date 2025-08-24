@@ -6,24 +6,33 @@
 ._3Sb2o_mQ30IDRh0C72QUUu {
     background-image: linear-gradient(to bottom, var(--homebackground1) 0%, var(--homebackground2) 20%);
 }
-.u1xD3KJEgksF_J_5TLZzO, /* Collections Page Background */
-._2sNr7PFYcJZWNkEMCDVVPR /* Hidden/Soundtracks Page Background */ {
+.u1xD3KJEgksF_J_5TLZzO,
+/* Collections Page Background */
+/* Hidden/Soundtracks Page Background */
+._2sNr7PFYcJZWNkEMCDVVPR {
     background: radial-gradient(100% 100% at 33% 45%, var(--homebackground1) 0%, var(--homebackground2) 100%);
 }
 /* Dialog Box Background */
-.DialogContent, .DialogContentTransition {
-    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), var(--dialogboxbackground);
+.DialogContent,
+.DialogContentTransition {
+    background: radial-gradient(circle at top left, 
+    rgba(74, 81, 92, 0.4) 0%, 
+    rgba(75, 81, 92, 0) 60%), 
+    var(--dialogboxbackground);
 }
 /* Filters Box Background */
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6 {
     background: color-mix(in srgb, var(--dialogboxbackground) 82%, white 18%);
 }
 /* Settings Dialog Box Background */
-.CFTLX2wIKOK3hNV-fS7_V.DesktopUI, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
+.CFTLX2wIKOK3hNV-fS7_V.DesktopUI,
+.DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
     background: var(--settingsbackground);
 }
-._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW, /* Settings Dialog Box Body Background (DLC Manager) */
-._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd /* (Workshop) */ {
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW,
+/* Settings Dialog Box Body Background (DLC Manager) */
+/* (Workshop) */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd {
     background: var(--settingsbodybackground);
 }
 /* Controller Steam Input Status Background */
@@ -35,8 +44,39 @@
     background: radial-gradient(farthest-corner at 0px 0px, var(--downloadspagebackground1) 0%, var(--downloadspagebackground2) 90%);
 }
 /* Downloads Page Item Hover */
-._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
+._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg,
+._1VNuYHM6BPBOJspC6zPf5r:hover {
     background-color: var(--downloadspagehover);
+}
+/* Game Page Background Color */
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
+    background-image: radial-gradient(100% 100% at 45% 35%, var(--gamepagebackground1) 0%, var(--gamepagebackground2) 100%);
+}
+/* Game Page Section Banner Background Color */
+._38t1mljBjmJfqjpVzMT1CG {
+    background: linear-gradient(to right, var(--gamepagesectionbanner1) 0%, var(--gamepagesectionbanner2) 95%);
+}
+/* Game Page Achievements Item Background COlor */
+.UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT {
+    background: linear-gradient(to right,
+    color-mix(in srgb, var(--gamepageachievements1), transparent 20%) 0%,
+    color-mix(in srgb, var(--gamepageachievements2), transparent 20%) 95%);
+}
+/* Gamepage Events Background */
+._1HZy7BvOZuPT8feUwadL4W,
+._3QRf-tp5VddAF00vWY5Gn8 /* Small Update / Patch Notes */ {
+    background: radial-gradient(100% 80% at 64% 95%, 
+    color-mix(in srgb, color-mix(in srgb, var(--gamepageevents) 65%, white 35%), transparent 70%) 0%,
+    color-mix(in srgb, color-mix(in srgb, var(--gamepageevents) 86%, white 14%), transparent 50%) 20%,
+    color-mix(in srgb, var(--gamepageevents), transparent 50%));
+}
+/* Gamepage Events Background Hover*/
+._1HZy7BvOZuPT8feUwadL4W:hover,
+._3QRf-tp5VddAF00vWY5Gn8:hover /* Small Update / Patch Notes */ {
+    background: radial-gradient(100% 80% at 64% 95%,
+    color-mix(in srgb, color-mix(in srgb, var(--gamepageeventshover) 25%, rgb(167 196 255) 75%), transparent 70%) 0%,
+    color-mix(in srgb, color-mix(in srgb, var(--gamepageeventshover) 50%, rgb(167 196 255) 50%), transparent 87%) 40%,
+    color-mix(in srgb, var(--gamepageeventshover), transparent 90%) 100%);
 }
 /*
   @import steam\customisables\Buttons.css */
