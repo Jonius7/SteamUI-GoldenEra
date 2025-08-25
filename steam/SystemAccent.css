@@ -97,3 +97,16 @@
 ._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z {
     background: linear-gradient(to right, color-mix(in srgb, var(--SystemAccentColor) 84%, black 16%) 0%, var(--SystemAccentColor) 100%);
 }
+
+/* FRIENDS LIST */
+/* Highlight Text Color - In Invite Friends Dialog */
+.DialogHighlight {
+    color: color-mix(in srgb, var(--SystemAccentColor) 93%, black 7%);
+}
+
+/* Send Chat Button */
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) {
+    background: linear-gradient(136deg, color-mix(in srgb, 
+    var(--SystemAccentColor) 17%, #003333 83%) 1%, 
+    var(--SystemAccentColor) 60%);
+}

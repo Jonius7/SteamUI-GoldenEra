@@ -90,6 +90,11 @@
     */
     --settingsbodybackground: #23262e;
     /* 
+    * @name Settings Sidebar Background Color
+    * @description Settings Sidebar Background Color
+    */
+    --settingssidebarbackground: #2a2d34;
+    /* 
     * @name Settings Button/Input Box Color
     * @description Settings Input Box Color (eg Launch Options)
     */
@@ -109,6 +114,16 @@
     * @description Settings Button Hover Color
     */
     --settingsdialogboxhover: #464d58;
+    /* 
+    * @name Context Menu Background Color
+    * @description Context Menu Background Color
+    */
+    --contextmenu: #3d4450;
+    /* 
+    * @name Context Menu Hover Background Color
+    * @description Context Menu Hover Background Color
+    */
+    --contextmenuhover: #dcdedf;
     /* 
     * @name Downloads Page Background Color 1
     * @description Downloads Page Background Color 1 (base)
@@ -169,6 +184,11 @@
     * @description Gamepage Events Background Radial Gradient Hover Color (item)
     */
     --gamepageeventshover: #536868;
+    /* 
+    * @name Gamepage Sections Background Color
+    * @description Gamepage Sections Background Radial Gradient Color (Friends who play, Achievements, etc.)
+    */
+    --gamepagesections: #536868;
     /*
     * @name Play Button Color 1
     * @description Play Button Gradient Color 1 (left)
@@ -198,5 +218,55 @@
     * @name Play Button Hover Color 2
     * @description Play Button Hover Gradient Color 2 
     */
-    --playbuttonhover2: #01a75b;    
+    --playbuttonhover2: #01a75b;   
+    /* 
+    * @name Friends List Header Color
+    * @description Friends List Header Color (your name and profile picture)
+    */
+    --friendslistheader: #1c232c;
+    /* 
+    * @name Friends List Section Title Background Color
+    * @description Friends List Section Title Background Color (Friends/Group Chats)
+    */
+    --friendslisttitle: #434953;
+    /* 
+    * @name Friends List Section Title Hover Background Color
+    * @description Friends List Section Title Hover Background Color (Friends/Group Chats)
+    */
+    --friendslisttitlehover: #4a515c;
+    /* 
+    * @name Friends List Body Background Color
+    * @description Friends List + Chat Window Body Background Color
+    */
+    --friendslistbody: #1c1d22;
+    /* 
+    * @name Friends List Search Box Background Color
+    * @description Friends List Search Box + Chat Window Buttons Background Color
+    */
+    --friendslistsearch: #2c3036;
+    /* 
+    * @name Friends Chat Window Header Background Color
+    * @description Friends Chat Window Header Background Color
+    */
+    --chatwindowheader: #1c232c;
+    /* 
+    * @name Friends Chat Window Tab Selected Background Color
+    * @description Friends Chat Window Selected Tab Background Color
+    */
+    --chatwindowtab: #3a3e46;
+    /* 
+    * @name Friends Chat Window Tab (not selcted) Hover Background Color
+    * @description Friends Chat Window Tab (not selected) Hover Background Color
+    */
+    --chatwindowtabhover: #434953;
+    /* 
+    * @name Friends Chat Window Footer Background Color
+    * @description Friends Chat Window Footer + Chat Box Background Color
+    */
+    --chatwindowfooter: #22252b;
+    /* 
+    * @name Friends Chat Window Chat Buttons Hover Background Color
+    * @description Friends Chat Window Chat Buttons Hover Background Color
+    */
+    --chatwindowbuttonshover: #3d424b;
 }

@@ -35,6 +35,10 @@
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd {
     background: var(--settingsbodybackground);
 }
+/* Settings Dialog Box Sidebar Background */
+._2kwFFHckg8jvnwJfg9-la8 {
+    background: var(--settingssidebarbackground);
+}
 /* Controller Steam Input Status Background */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko {
     background: color-mix(in srgb, var(--settingsdialogbox), transparent 80%);
@@ -77,6 +81,13 @@
     color-mix(in srgb, color-mix(in srgb, var(--gamepageeventshover) 25%, rgb(167 196 255) 75%), transparent 70%) 0%,
     color-mix(in srgb, color-mix(in srgb, var(--gamepageeventshover) 50%, rgb(167 196 255) 50%), transparent 87%) 40%,
     color-mix(in srgb, var(--gamepageeventshover), transparent 90%) 100%);
+}
+/* Gamepage Sections Color */
+._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t {
+    background: radial-gradient(100% 80% at 64% 95%, 
+    color-mix(in srgb, color-mix(in srgb, var(--gamepagesections) 25%, rgb(167 196 255) 75%), transparent 70%) 0%,
+    color-mix(in srgb, color-mix(in srgb, var(--gamepagesections) 50%, rgb(167 196 255) 50%), transparent 87%) 40%,
+    color-mix(in srgb, var(--gamepagesections), transparent 90%) 100%);
 }
 /*
   @import steam\customisables\Buttons.css */
@@ -152,4 +163,17 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 button.DialogButton:hover, button.DialogButton.gpfocus {
     background: var(--settingsdialogboxhover);
     color: #fff;
+}
+/*
+  @import steam\customisables\ContextMenu.css */
+/* Context Menu Background */
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+    background: var(--contextmenu);
+}
+/* Context Menu Hover/Selected Background */
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, 
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, 
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, 
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    background: var(--contextmenuhover);
 }

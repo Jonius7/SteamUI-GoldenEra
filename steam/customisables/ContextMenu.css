@@ -1,0 +1,12 @@
+/* Context Menu Background */
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+    background: var(--contextmenu);
+}
+
+/* Context Menu Hover/Selected Background */
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, 
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, 
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, 
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    background: var(--contextmenuhover);
+}

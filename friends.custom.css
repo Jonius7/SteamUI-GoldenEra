@@ -1,0 +1,102 @@
+/*
+  FRIENDS LIST */
+/* Friends List Header */
+.friendListHeaderContainer {
+    background-color: var(--friendslistheader);
+}
+
+/* Friends List Section Heading (Friends/Group Chats) */
+.activeTab, .friendsListSectionTitle {
+    background-color: var(--friendslisttitle);
+}
+
+/* Friends List Section Heading Hover (Friends/Group Chats) */
+.friendsListSectionTitle.chatSectionTitle:hover {
+    background-color: var(--friendslisttitlehover);
+}
+
+/* Friends List Search Bar */
+.friendSearchInput[type=text]:focus {
+    background-color: var(--friendslistsearch);
+}
+.friendSearchInput[type=text] {
+    background-color: color-mix(in srgb, var(--friendslistsearch) 87%, black 13%);
+}
+
+/* Friends List Search Bar Hover */
+.TabSearchButton:hover {
+    background-color: color-mix(in srgb, var(--friendslistsearch) 50%, transparent 50%);
+}
+
+/* Friends List Body */
+.friendlistListContainer {
+    background: radial-gradient(ellipse farthest-corner at 50% 30%,
+    color-mix(in srgb, var(--friendslistbody) 97.5%, white 2.5%) 0%, 
+    color-mix(in srgb, var(--friendslistbody) 98.7%, white 1.3%) 50%, 
+    var(--friendslistbody) 100%);
+}
+
+/* Group Chats Body - change to same gradient as Friends List Body */
+.chatRoomListContainer {
+    /* background: radial-gradient(ellipse farthest-corner at 20% 30%,
+    #222b35 0%, #252e38 10%, #20242b 100%); */ /* default */
+    background: radial-gradient(ellipse farthest-corner at 50% 30%,
+    color-mix(in srgb, var(--friendslistbody) 97.5%, white 2.5%) 0%, 
+    color-mix(in srgb, var(--friendslistbody) 98.7%, white 1.3%) 50%, 
+    var(--friendslistbody) 100%);
+}
+
+/* Remove footer height */
+.friendListFooter {
+    min-height: unset;
+}
+
+/* Remove Resize grip icon (bottom right) */
+.window_resize_grip {
+    background-image: unset;
+}
+
+/*
+  CHAT WINDOW */
+/* Chat Window Header Color */
+.titleBarContainer.ChatTabs {
+    background-color: var(--chatwindowheader);
+}
+/* Chat Window Tab Selected Color */
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+    background-color: var(--chatwindowtab);
+}
+
+/* Chat Window Tab (not selected) Hover Color */
+._2XZq-_f6npaQdAgeRzKIkz:hover:not(.Yd-DsWkYiFiYwpci--Yk_) {
+    background-color: color-mix(in srgb, var(--chatwindowtabhover) 30%, transparent 70%);
+}
+
+/* Chat Window Body, same as Friends List Body */
+.chatWindow {
+    background: radial-gradient(ellipse farthest-corner at 50% 30%,
+    color-mix(in srgb, var(--friendslistbody) 97.5%, white 2.5%) 0%, 
+    color-mix(in srgb, var(--friendslistbody) 98.7%, white 1.3%) 50%, 
+    var(--friendslistbody) 100%);
+}
+
+/* Chat Window Footer */
+.chatWindow .chatEntry {
+    background-color: var(--chatwindowfooter);
+}
+
+/* Chat Window Chat Box */
+._3Ule3rolhZJiBN4yNNtk1s {
+    background-color: color-mix(in srgb, var(--chatwindowfooter) 75%, black 25%);
+}
+
+/* Chat Window Chat Buttons */
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    background-color: var(--friendslistsearch);
+}
+
+/* Chat Window Chat Buttons Hover */
+.RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i:hover, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i:focus,
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW:hover, .RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW:focus {
+    background-color: var(--chatwindowbuttonshover);
+}

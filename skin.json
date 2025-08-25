@@ -174,7 +174,7 @@
                 "yes": {
                     "TargetCss": {
                         "affects": [".*"],
-                        "src": "steam/SystemAccent.css" 
+                        "src": "steam/SystemAccent.css"
                     }
                 }
             }
@@ -265,7 +265,7 @@
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.4.12-beta", 
+    "version": "0.5-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },
