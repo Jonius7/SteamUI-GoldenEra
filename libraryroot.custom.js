@@ -65,17 +65,17 @@ function addSidebarToggleButton(panel, container) {
         isOpen = !isOpen;
         saveSidebarVisibility(isOpen);
     });
-
+    
     const originalStyle = toggleButton.style.cssText;
-
+    
     // When the mouse enters
     toggleButton.addEventListener('mouseenter', () => {
-      toggleButton.style.cssText = originalStyle + "background-color: #3e4047;";
+        toggleButton.style.cssText = originalStyle + "background-color: #3e4047;";
     });
     
     // When the mouse leaves
     toggleButton.addEventListener('mouseleave', () => {
-      toggleButton.style.cssText = originalStyle;
+        toggleButton.style.cssText = originalStyle;
     });
     
     container.appendChild(toggleButton);
