@@ -144,8 +144,8 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 .BRmrC-jnwpXqye4oYB21C button.DialogButton /* Settings -> Notifications -> Expand buttons */{
     background: color-mix(in srgb, var(--settingsdialogbox), transparent 50%);
 }
-/* Overlay Notes Buttons */
-button.DialogButton._1dEi5qzSDdPOzoOQXYbNLN {
+button.DialogButton._1dEi5qzSDdPOzoOQXYbNLN, /* Overlay Notes Buttons */
+._2j-W28YC1xAizcE7x9KkDT > button.DialogButton /* Clock Buttons */ {
     background: var(--settingsdialogbox);
 }
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Settings Dialog DropDown Hover Background */
@@ -170,8 +170,13 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
 }
 /* Radio Chooser
   Selected in SystemAccent.css */
-.HijmccPB1BKyhOwhX1EVl {
+._1ml4SNc3LIyBDHIf8ekVSw, /* Background */ 
+.HijmccPB1BKyhOwhX1EVl /* Buttons (not selected) */ {
     background-color: color-mix(in srgb, var(--settingsdialoginputselected) 96%, white 4%);
+}
+/* Hover */
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
+    background-color: var(--settingsdialogboxhover);
 }
 /*
   @import steam\customisables\ContextMenu.css */

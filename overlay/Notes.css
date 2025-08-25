@@ -2,3 +2,8 @@
 ._3LLH_F43MTu6UtG4Z3kudv, ._1cWmu5TUWFAVHlv1EVaF8e {
     background-color: var(--overlaylight);
 }
+
+/* New Note Button */
+button._3Sjbkvk647UKKVLX6J7gsW.DialogButton {
+    background-color: var(--overlaylight);
+}

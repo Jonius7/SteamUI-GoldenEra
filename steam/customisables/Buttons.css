@@ -60,8 +60,9 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
     background: color-mix(in srgb, var(--settingsdialogbox), transparent 50%);
 }
 
-/* Overlay Notes Buttons */
-button.DialogButton._1dEi5qzSDdPOzoOQXYbNLN {
+
+button.DialogButton._1dEi5qzSDdPOzoOQXYbNLN, /* Overlay Notes Buttons */
+._2j-W28YC1xAizcE7x9KkDT > button.DialogButton /* Clock Buttons */ {
     background: var(--settingsdialogbox);
 }
 
