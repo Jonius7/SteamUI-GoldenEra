@@ -71,9 +71,12 @@
     background: var(--SystemAccentColor);
 }
 
-/* Chooser (in settings) */
+/* Radio Chooser Selected (in settings) */
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q, .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
     background: radial-gradient(color-mix(in srgb, var(--SystemAccentColor), transparent 27%) 0%, var(--SystemAccentColor) 100%);
+}
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm)._3-_jME_xsuvgT3Dvq4bw_q:hover {
+    filter: brightness(1.05);
 }
 
 ._2bl0iQ9xigbq4Zd1NI6NZl::before, /* Switches (in settings) */
@@ -109,4 +112,16 @@
     background: linear-gradient(136deg, color-mix(in srgb, 
     var(--SystemAccentColor) 17%, #003333 83%) 1%, 
     var(--SystemAccentColor) 60%);
+}
+
+/* GAME OVERLAY */
+/* Selected/Opened Overlay Windows Button */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn {
+    background-color: var(--SystemAccentColor);
+}
+
+/* Selected/Opened Overlay Windows Button Hover */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn:hover {
+    background-color: var(--SystemAccentColor);
+    filter: saturate(1.8) hue-rotate(6deg) brightness(0.95) contrast(1.9);
 }

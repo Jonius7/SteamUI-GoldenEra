@@ -5,6 +5,11 @@
     */
     --headercolor: #171d25;
     /* 
+    * @name Header Buttons Hover Color
+    * @description Header Buttons Hover Color
+    */
+    --headerbuttonhover: #3d4450;
+    /* 
     * @name Sidebar Color 1
     * @description Sidebar Gradient Color 1 (top)
     */
@@ -106,7 +111,7 @@
     --settingsdialoginputhover: #434953;
     /* 
     * @name Settings Input Selected Color
-    * @description Settings Input Selected Color
+    * @description Settings Input Selected Color / Radio Chooser not selected Color
     */
     --settingsdialoginputselected: #23262e;
     /* 
@@ -166,12 +171,12 @@
     --gamepagesectionbanner2: #2c3138;
     /* 
     * @name Gamepage Achievements Item Background Color 1
-    * @description Gamepage Achievements Item Background Color 1
+    * @description Gamepage Achievements Item Background Color 1 (left)
     */
     --gamepageachievements1: #2e323a;
     /* 
     * @name Gamepage Achievements Item Background Color 2
-    * @description Gamepage Achievements Item Background Color 2
+    * @description Gamepage Achievements Item Background Color 2 (right)
     */
     --gamepageachievements2: #24282f;
     /* 
@@ -269,4 +274,14 @@
     * @description Friends Chat Window Chat Buttons Hover Background Color
     */
     --chatwindowbuttonshover: #3d424b;
+    /* 
+    * @name Overlay Dark Color
+    * @description Overlay Dark Color
+    */
+    --overlaydark: #23262e;
+    /* 
+    * @name Overlay Light Color
+    * @description Overlay Light Color
+    */
+    --overlaylight: #3d4450;
 }

@@ -60,6 +60,11 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
     background: color-mix(in srgb, var(--settingsdialogbox), transparent 50%);
 }
 
+/* Overlay Notes Buttons */
+button.DialogButton._1dEi5qzSDdPOzoOQXYbNLN {
+    background: var(--settingsdialogbox);
+}
+
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Settings Dialog DropDown Hover Background */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:hover,
 ._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz ._1KAp5PPYG7si-T_66zNEcU:hover, /* incl. Installed Files buttons */
@@ -84,3 +89,15 @@ button.DialogButton:hover, button.DialogButton.gpfocus {
     color: #fff;
 }
 
+/* Radio Chooser
+  Selected in SystemAccent.css */
+
+._1ml4SNc3LIyBDHIf8ekVSw, /* Background */ 
+.HijmccPB1BKyhOwhX1EVl /* Buttons (not selected) */ {
+    background-color: color-mix(in srgb, var(--settingsdialoginputselected) 96%, white 4%);
+}
+
+/* Hover */
+.HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover {
+    background-color: var(--settingsdialogboxhover);
+}

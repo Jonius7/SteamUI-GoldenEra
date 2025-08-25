@@ -38,13 +38,24 @@
 /* Button Styling (hover) */
 ._1TdaAqMFadi0UTqilrkelR:hover, ._2foCkpRXhqq0UGVE50BWqj:hover, ._2EQ7ghgqIdjKv9jsQC0Zq9:hover {
     /*background-color: #3d4450;*/
-    background-color: var(--homebuttonhover);
+    background-color: var(--headerbuttonhover);
     transition: background-color .15s ease-out;
 }
 
 /* Nudge Downloads button */
 .ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
     margin-top: -3px;
+}
+
+/* Make whole Downloads Button hoverable/selectable, not just the icon */
+._2EQ7ghgqIdjKv9jsQC0Zq9 {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    padding: 0px;
+}
+.ip-YZhijAMZcuRoXBGiye {
+    -webkit-app-region: no-drag;
+    padding: 5px 16px 5px 16px;
 }
 
 /* Downloads bar (when downloading) */
@@ -62,7 +73,6 @@
 }
 
 ._2EQ7ghgqIdjKv9jsQC0Zq9 {
-    
     order: var(--order-download);
 }
 

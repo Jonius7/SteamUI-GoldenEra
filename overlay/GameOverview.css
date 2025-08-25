@@ -1,0 +1,26 @@
+/* Game Overview Headings */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL {
+    background-color: var(--overlaylight);
+}
+/* Game Overview Body */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6.P46KVvNDqOUONCIHBwKgU {
+    background-color: var(--overlaydark);
+}
+
+/* Game Overview Background */
+.C9tvuqqEXGcrkcAtHrQ_R, ._27m9Qbg4ShilOgwvYZWV8l {
+    background: radial-gradient(155.42% 100% at 0% 0%, 
+    var(--overlaydark) 0 0%,
+    color-mix(in srgb, var(--overlaydark) 59%, black 41%) 100%);
+}
+
+/* Item Colors */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._17TJ4vdOZjHL-bjbRUKzxp._3WMiI5PUctRy9VuvX4r5hj, 
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2OwqXw1nhBL430bsYTeEr-, 
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0  {
+    background: var(--overlaydark);
+}
+
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2fYjCJSwdJxdjbi7ysISdL ._2NLwfYHr9KUJZ7LD9nkyva {
+    background: var(--overlaylight);
+}

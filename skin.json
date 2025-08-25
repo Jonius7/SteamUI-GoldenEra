@@ -259,13 +259,25 @@
         {
             "MatchRegexString": "^Steam$",
             "TargetCss": "custom.css"
+        },
+        {
+            "MatchRegexString": ".*SP Overlay:.*",
+            "TargetCss": "overlay/Overlay.css"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "overlay/GameOverview.css"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "overlay/Clock.css"
         }
     ],
 	"RootColors": "colors.css",
     "name": "SteamUI-GoldenEra",
     "author": "Jonius7",
     "description": "A rebuilt from scratch version of SteamUI-OldGlory comes to Millennium!",
-    "version": "0.5.1-beta", 
+    "version": "0.5.4-beta", 
     "discord_support": {
         "inviteCodeExcludingLink": "hScVrvxJWy"
     },

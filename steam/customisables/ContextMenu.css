@@ -1,6 +1,13 @@
 /* Context Menu Background */
-.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt,
+._3pofGqV0buiKAfMPEs3_82 /* Menus + SuperNavs */ {
     background: var(--contextmenu);
+}
+
+/* Home Page Sort By Dropdown */
+._1ZpBQtDqcKBbfIIv01Vs1R>div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div,
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer /* Add Shelf dropdown */ {
+    background: var(--contextmenu) !important;
 }
 
 /* Context Menu Hover/Selected Background */
@@ -8,5 +15,12 @@
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, 
 ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, 
 ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    background: var(--contextmenuhover);
+}
+
+/* Home Page Sort By Dropdown */
+._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus.DesktopUI, 
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus,
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:focus /* Add Shelf dropdown focus */ {
     background: var(--contextmenuhover);
 }

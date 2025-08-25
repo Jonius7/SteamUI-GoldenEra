@@ -1,5 +1,6 @@
 @import "../variables.css";
 @import ".././header/Header.css";
+@import ".././header/AccountButtons.css";
 @import "./gamepage/Achievements.css";
 @import "./gamepage/PlayButton.css";
 @import "./gamepage/GamePageTweaks.css";
