@@ -6,3 +6,20 @@
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L:hover {
     background-color: var(--overlaylight);
 }
+/* Overlay Buttons Active */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L:enabled:active {
+    background: color-mix(in srgb, var(--overlaylight) 85%, black 15%);
+}
+
+/* Exit Game Button */
+.fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3 {
+    background-color: var(--overlaydark);
+}
+
+/* Back to Game X Button */
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc {
+    background-color: var(--overlaydark);
+}
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc:hover {
+    background-color: var(--overlaylight);
+}

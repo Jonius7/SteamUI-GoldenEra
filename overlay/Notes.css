@@ -6,4 +6,26 @@
 /* New Note Button */
 button._3Sjbkvk647UKKVLX6J7gsW.DialogButton {
     background-color: var(--overlaylight);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+button._3Sjbkvk647UKKVLX6J7gsW.DialogButton:hover {
+    background: var(--settingsdialogboxhover);
+}
+
+/* Delete Note Button */
+._1AL7l2CN6z-vuLfp1iCLa ._1fu6xumTI1nCY5wc6FG_N2 .DialogButton {
+    background-color: var(--overlaylight);
+}
+._1AL7l2CN6z-vuLfp1iCLa ._1fu6xumTI1nCY5wc6FG_N2 .DialogButton:hover {
+    background: var(--settingsdialogboxhover);
+}
+
+/* Fix Tooltip parent div being way too wide */
+._2kwFFHckg8jvnwJfg9-la8 > div > .tool-tip-source {
+    width: 36px;
+    height: 36px;
+    left: 10px;
+    position: absolute;
+    transform: translateY(10px);
 }
