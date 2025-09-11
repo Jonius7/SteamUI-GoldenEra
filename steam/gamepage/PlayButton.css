@@ -14,15 +14,20 @@
 
 /* Main and Secondary Play Button Hover Color */
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
-  background: linear-gradient(to right, var(--playbuttonhover1) 0%, var(--playbuttonhover2) 60%);
-  background-position: 0%;
-  background-size: 330% 100%;
-  color: var(--playbuttonhovertext);
+    background: linear-gradient(to right, var(--playbuttonhover1) 0%, var(--playbuttonhover2) 60%);
+    background-position: 0%;
+    background-size: 330% 100%;
+    color: var(--playbuttonhovertext);
 }
 
 /* Small Play Button on Recent Games */
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
     background: radial-gradient(circle farthest-corner at 50% 50%, var(--playbutton1) 0%, var(--playbutton2) 100%);
+}
+
+/* Behind the Small Play Button on Recent Games when it is missing */
+._3AjoLnMNKxYmNTGTJCLfgs._1aml4h4CSJbtrNbX4brUYs {
+    background: var(--headerbuttonhover);
 }
 
 /* Context Menu Play Button */

@@ -115,10 +115,20 @@
     */
     --settingsdialoginputselected: #23262e;
     /* 
-    * @name Settings Button Hover Color
+    * @name Settings Dialog Box Button Hover Color
     * @description Settings Button Hover Color
     */
     --settingsdialogboxhover: #464d58;
+    /* 
+    * @name Settings Sidebar Selected Item Color
+    * @description Settings Sidebar Selected Item Color
+    */
+    --settingssidebarselected: #3d4450;
+    /* 
+    * @name Settings Sidebar Hover Item Color
+    * @description Settings Sidebar Hover Item Color
+    */
+    --settingssidebarhover: #dcdedf;
     /* 
     * @name Context Menu Background Color
     * @description Context Menu Background Color

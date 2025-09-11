@@ -39,6 +39,14 @@
 ._2kwFFHckg8jvnwJfg9-la8 {
     background: var(--settingssidebarbackground);
 }
+/* Settings Sidebar Selected Item */
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    background-color: var(--settingssidebarselected);
+}
+/* Settings Sidebar Selected Hover */
+._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
+    background-color: var(--settingssidebarhover);
+}
 /* Controller Steam Input Status Background */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko {
     background: color-mix(in srgb, var(--settingsdialogbox), transparent 80%);
