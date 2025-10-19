@@ -21,7 +21,7 @@ Additionally, SteamUI-GoldenEra is fully color customisable with 60 different co
 ## How to Install
 
 1. Install [**Millennium**](https://docs.steambrew.app/users/installing).
-2. Open the **SteamUI-GoldenEra** theme page and click the **Copy Theme ID** button.
+2. Open the **[SteamUI-GoldenEra](https://steambrew.app/theme?id=eOXZenSZtpnneOBT9xDS)** theme page and click the **Copy Theme ID** button.
 3. In Steam, under **Steam -> Millennium -> Themes**, click **Install a theme**, paste the Theme ID and click **Install**.
 
 
